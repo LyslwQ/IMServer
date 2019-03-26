@@ -1,0 +1,7 @@
+20180903 10:01:17 INFO  Init mysql success... - main.cpp:147
+20180903 10:01:17 INFO  Init UserManager success... - main.cpp:152
+20180903 10:01:17 INFO  chatserver initialization complete. - main.cpp:161
+20180903 10:02:31 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#1] from 120.236.177.88:29726 - tcpserver.cpp:74
+20180903 10:02:31 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x1A4B9D0 fd=22 - tcpconnection.cpp:46
+20180903 10:02:31 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "11111111111", "nickname": "111", "password": "111"}, datalength=65, packageBodySize=80 - ClientSession.cpp:127
+20180903 10:02:31 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 101, "msg": "registered already"} - ClientSession.cpp:347

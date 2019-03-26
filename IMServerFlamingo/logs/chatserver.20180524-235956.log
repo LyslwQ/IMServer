@@ -1,0 +1,206 @@
+20180524 23:59:56 INFO  show databases - databasemysql.cpp:92
+20180524 23:59:56 INFO  CMysqlManager::_IsDBExist, find database(myim) - mysqlmanager.cpp:218
+20180524 23:59:56 INFO  desc t_user - databasemysql.cpp:92
+20180524 23:59:56 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180524 23:59:56 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180524 23:59:56 INFO  desc t_device - databasemysql.cpp:92
+20180524 23:59:56 INFO  Init mysql success... - main.cpp:149
+20180524 23:59:56 INFO  SELECT f_user_id, f_username, f_nickname, f_password,  f_facetype, f_customface, f_gender, f_birthday, f_signature, f_address, f_phonenumber, f_mail FROM t_user ORDER BY  f_user_id DESC - databasemysql.cpp:92
+20180524 23:59:56 INFO  Here success111...... - UserManager.cpp:80
+20180524 23:59:56 INFO  userid: 268435456, username: 268435456, password: , nickname: 华师篮球群, signature:  - UserManager.cpp:87
+20180524 23:59:56 INFO  Here success111...... - UserManager.cpp:80
+20180524 23:59:56 INFO  userid: 5, username: 13025263139, password: client05, nickname: client05, signature:  - UserManager.cpp:87
+20180524 23:59:56 INFO  Here success111...... - UserManager.cpp:80
+20180524 23:59:56 INFO  userid: 4, username: 13025263138, password: client04, nickname: client04, signature:  - UserManager.cpp:87
+20180524 23:59:56 INFO  Here success111...... - UserManager.cpp:80
+20180524 23:59:56 INFO  userid: 3, username: 13025263137, password: client03, nickname: client03, signature:  - UserManager.cpp:87
+20180524 23:59:56 INFO  Here success111...... - UserManager.cpp:80
+20180524 23:59:56 INFO  userid: 2, username: 13025263136, password: client02, nickname: client02, signature:  - UserManager.cpp:87
+20180524 23:59:56 INFO  Here success111...... - UserManager.cpp:80
+20180524 23:59:56 INFO  userid: 1, username: 13025263135, password: client01, nickname: client01, signature:  - UserManager.cpp:87
+20180524 23:59:56 INFO  current base userid: 5, current base group id: 268435456 - UserManager.cpp:103
+20180524 23:59:56 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 268435456 OR f_user_id2 = 268435456  - databasemysql.cpp:92
+20180524 23:59:56 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 5 OR f_user_id2 = 5  - databasemysql.cpp:92
+20180524 23:59:56 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 4 OR f_user_id2 = 4  - databasemysql.cpp:92
+20180524 23:59:56 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 3 OR f_user_id2 = 3  - databasemysql.cpp:92
+20180524 23:59:56 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 2 OR f_user_id2 = 2  - databasemysql.cpp:92
+20180524 23:59:56 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 1 OR f_user_id2 = 1  - databasemysql.cpp:92
+20180524 23:59:56 INFO  Init UserManager success... - main.cpp:156
+20180524 23:59:56 INFO  chatserver initialization complete. - main.cpp:164
+20180525 00:02:20 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#1] from 192.168.155.5:33850 - tcpserver.cpp:74
+20180525 00:02:20 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#1] at 0x2432F90 fd=21 - tcpconnection.cpp:46
+20180525 00:03:29 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#2] from 192.168.155.5:35130 - tcpserver.cpp:74
+20180525 00:03:29 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#2] at 0x2433BB0 fd=22 - tcpconnection.cpp:46
+20180525 00:04:37 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#3] from 192.168.155.5:38202 - tcpserver.cpp:74
+20180525 00:04:37 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#3] at 0x24347C0 fd=23 - tcpconnection.cpp:46
+20180525 00:06:10 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#4] from 192.168.155.5:2564 - tcpserver.cpp:74
+20180525 00:06:10 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#4] at 0x2418470 fd=24 - tcpconnection.cpp:46
+20180525 00:06:10 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "13025263135", "nickname": "liyusheng", "password": "liyusheng"}, datalength=77, packageBodySize=92 - ClientSession.cpp:115
+20180525 00:06:10 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 101, "msg": "registered already"} - ClientSession.cpp:339
+20180525 00:06:22 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:06:22 INFO  client disconnected: 192.168.155.5:2564 - IMServer.cpp:91
+20180525 00:06:22 INFO  current online user count: 3 - IMServer.cpp:96
+20180525 00:06:22 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#5] from 192.168.155.5:2820 - tcpserver.cpp:74
+20180525 00:06:22 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#5] at 0x2419080 fd=24 - tcpconnection.cpp:46
+20180525 00:06:22 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#4 - tcpserver.cpp:103
+20180525 00:06:22 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#4] at 0x2418470 fd=24 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:06:46 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#6] from 192.168.155.5:3332 - tcpserver.cpp:74
+20180525 00:06:46 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#6] at 0x2418470 fd=24 - tcpconnection.cpp:46
+20180525 00:06:46 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "13025263134", "nickname": "liyusheng", "password": "liyusheng"}, datalength=77, packageBodySize=92 - ClientSession.cpp:115
+20180525 00:06:46 INFO  Response to client: cmd=msg_type_register, userid=6, data={"code": 0, "msg": "ok"} - ClientSession.cpp:339
+20180525 00:06:53 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:06:53 INFO  client disconnected: 192.168.155.5:3332 - IMServer.cpp:91
+20180525 00:06:53 INFO  current online user count: 4 - IMServer.cpp:96
+20180525 00:06:53 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#6 - tcpserver.cpp:103
+20180525 00:06:53 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#6] at 0x2418470 fd=24 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:06:53 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:06:53 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#7] from 192.168.155.5:3844 - tcpserver.cpp:74
+20180525 00:06:53 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#7] at 0x2418470 fd=24 - tcpconnection.cpp:46
+20180525 00:06:53 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "13025263134", "password": "liyusheng", "clienttype": 1, "status": 1}, datalength=82, packageBodySize=97 - ClientSession.cpp:115
+20180525 00:06:53 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 6,"username":"13025263134", "nickname":"liyusheng", "facetype": 0, "customface":"", "gender":0, "birthday":19900101, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=6 - ClientSession.cpp:413
+20180525 00:06:53 INFO  get notify msg cache, userid: 6, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:49
+20180525 00:06:53 INFO  get chat msg cache, userid: 6, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:81
+20180525 00:06:53 INFO  Request from client: userid=6, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:115
+20180525 00:06:53 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:513
+20180525 00:07:37 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#8] from 192.168.155.5:5124 - tcpserver.cpp:74
+20180525 00:07:37 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#8] at 0x2419CC0 fd=25 - tcpconnection.cpp:46
+20180525 00:07:41 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#9] from 192.168.155.5:5380 - tcpserver.cpp:74
+20180525 00:07:41 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#9] at 0x241A8B0 fd=26 - tcpconnection.cpp:46
+20180525 00:08:09 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#10] from 192.168.155.5:5892 - tcpserver.cpp:74
+20180525 00:08:09 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#10] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:12 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:12 INFO  client disconnected: 192.168.155.5:5892 - IMServer.cpp:91
+20180525 00:08:12 INFO  current online user count: 7 - IMServer.cpp:96
+20180525 00:08:12 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#10 - tcpserver.cpp:103
+20180525 00:08:12 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#10] at 0x241B4C0 fd=27 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:12 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:18 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#11] from 192.168.155.5:6148 - tcpserver.cpp:74
+20180525 00:08:18 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#11] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:21 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:21 INFO  client disconnected: 192.168.155.5:6148 - IMServer.cpp:91
+20180525 00:08:21 INFO  current online user count: 7 - IMServer.cpp:96
+20180525 00:08:21 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#11 - tcpserver.cpp:103
+20180525 00:08:21 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#11] at 0x241B4C0 fd=27 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:21 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:28 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#12] from 192.168.155.3:6660 - tcpserver.cpp:74
+20180525 00:08:28 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#12] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:31 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:8270#12] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180525 00:08:31 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:31 INFO  client disconnected: 192.168.155.3:6660 - IMServer.cpp:91
+20180525 00:08:31 INFO  current online user count: 7 - IMServer.cpp:96
+20180525 00:08:31 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#12 - tcpserver.cpp:103
+20180525 00:08:31 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#12] at 0x241B4C0 fd=27 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:31 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:31 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#13] from 192.168.155.1:10444 - tcpserver.cpp:74
+20180525 00:08:31 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#13] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:31 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:31 INFO  client disconnected: 192.168.155.1:10444 - IMServer.cpp:91
+20180525 00:08:31 INFO  current online user count: 7 - IMServer.cpp:96
+20180525 00:08:31 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#13 - tcpserver.cpp:103
+20180525 00:08:31 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#13] at 0x241B4C0 fd=27 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:31 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:34 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#14] from 192.168.155.3:7172 - tcpserver.cpp:74
+20180525 00:08:34 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#14] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:37 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:8270#14] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180525 00:08:37 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:37 INFO  client disconnected: 192.168.155.3:7172 - IMServer.cpp:91
+20180525 00:08:37 INFO  current online user count: 7 - IMServer.cpp:96
+20180525 00:08:37 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#14 - tcpserver.cpp:103
+20180525 00:08:37 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#14] at 0x241B4C0 fd=27 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:37 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:37 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#15] from 192.168.155.1:10956 - tcpserver.cpp:74
+20180525 00:08:37 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#15] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:37 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:37 INFO  client disconnected: 192.168.155.1:10956 - IMServer.cpp:91
+20180525 00:08:37 INFO  current online user count: 7 - IMServer.cpp:96
+20180525 00:08:37 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#15 - tcpserver.cpp:103
+20180525 00:08:37 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#15] at 0x241B4C0 fd=27 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:37 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:47 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#16] from 192.168.155.3:7428 - tcpserver.cpp:74
+20180525 00:08:47 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#16] at 0x241B4C0 fd=27 - tcpconnection.cpp:46
+20180525 00:08:51 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#17] from 192.168.155.1:13260 - tcpserver.cpp:74
+20180525 00:08:51 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#17] at 0x241C0E0 fd=28 - tcpconnection.cpp:46
+20180525 00:08:51 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:51 INFO  client disconnected: 192.168.155.1:13260 - IMServer.cpp:91
+20180525 00:08:51 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:08:51 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#17 - tcpserver.cpp:103
+20180525 00:08:51 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#17] at 0x241C0E0 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:51 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:53 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#18] from 192.168.155.3:10244 - tcpserver.cpp:74
+20180525 00:08:53 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#18] at 0x241C0E0 fd=28 - tcpconnection.cpp:46
+20180525 00:08:56 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:8270#18] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180525 00:08:56 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:56 INFO  client disconnected: 192.168.155.3:10244 - IMServer.cpp:91
+20180525 00:08:56 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:08:56 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#18 - tcpserver.cpp:103
+20180525 00:08:56 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#18] at 0x241C0E0 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:56 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:08:56 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#19] from 192.168.155.1:13772 - tcpserver.cpp:74
+20180525 00:08:56 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#19] at 0x241C0E0 fd=28 - tcpconnection.cpp:46
+20180525 00:08:56 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:08:56 INFO  client disconnected: 192.168.155.1:13772 - IMServer.cpp:91
+20180525 00:08:56 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:08:56 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#19 - tcpserver.cpp:103
+20180525 00:08:56 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#19] at 0x241C0E0 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:08:56 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:10:01 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#20] from 192.168.155.3:14596 - tcpserver.cpp:74
+20180525 00:10:01 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#20] at 0x241C0E0 fd=28 - tcpconnection.cpp:46
+20180525 00:10:04 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:8270#20] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180525 00:10:04 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:10:04 INFO  client disconnected: 192.168.155.3:14596 - IMServer.cpp:91
+20180525 00:10:04 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:10:04 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#20 - tcpserver.cpp:103
+20180525 00:10:04 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#20] at 0x241C0E0 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:10:04 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:10:04 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#21] from 192.168.155.1:27852 - tcpserver.cpp:74
+20180525 00:10:04 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#21] at 0x241C0E0 fd=28 - tcpconnection.cpp:46
+20180525 00:10:04 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:10:04 INFO  client disconnected: 192.168.155.1:27852 - IMServer.cpp:91
+20180525 00:10:04 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:10:04 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#21 - tcpserver.cpp:103
+20180525 00:10:04 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#21] at 0x241C0E0 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:10:04 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:10:12 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#22] from 192.168.155.3:14852 - tcpserver.cpp:74
+20180525 00:10:12 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#22] at 0x241C0E0 fd=28 - tcpconnection.cpp:46
+20180525 00:10:12 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "13025263134", "password": "liyusheng", "clienttype": 1, "status": 1}, datalength=82, packageBodySize=97 - ClientSession.cpp:115
+20180525 00:10:12 INFO  Response to client: userid=0, cmd=msg_type_kickuser - ClientSession.cpp:389
+20180525 00:10:12 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 6,"username":"13025263134", "nickname":"liyusheng", "facetype": 0, "customface":"", "gender":0, "birthday":19900101, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=6 - ClientSession.cpp:413
+20180525 00:10:12 INFO  get notify msg cache, userid: 6, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:49
+20180525 00:10:12 INFO  get chat msg cache, userid: 6, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:81
+20180525 00:10:12 INFO  Request from client: userid=6, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:115
+20180525 00:10:12 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:513
+20180525 00:10:33 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#23] from 192.168.155.1:29900 - tcpserver.cpp:74
+20180525 00:10:33 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#23] at 0x241CD00 fd=29 - tcpconnection.cpp:46
+20180525 00:10:33 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:10:33 INFO  client disconnected: 192.168.155.1:29900 - IMServer.cpp:91
+20180525 00:10:33 INFO  current online user count: 9 - IMServer.cpp:96
+20180525 00:10:33 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#23 - tcpserver.cpp:103
+20180525 00:10:33 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#23] at 0x241CD00 fd=29 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:10:33 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:10:44 INFO  Request from client: userid=6, cmd=1003, seq=1, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:115
+20180525 00:10:45 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:513
+20180525 00:11:52 INFO  Request from client: userid=6, cmd=1003, seq=2, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:115
+20180525 00:11:52 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:513
+20180525 00:12:08 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:8270#22] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180525 00:12:08 INFO  client disconnected: 192.168.155.3:14852 - IMServer.cpp:91
+20180525 00:12:08 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:12:08 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#22 - tcpserver.cpp:103
+20180525 00:12:08 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#22] at 0x241C0E0 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:12:08 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:12:18 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#24] from 192.168.155.3:52752 - tcpserver.cpp:74
+20180525 00:12:18 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#24] at 0x241CD00 fd=28 - tcpconnection.cpp:46
+20180525 00:12:21 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:8270#24] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180525 00:12:21 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:12:21 INFO  client disconnected: 192.168.155.3:52752 - IMServer.cpp:91
+20180525 00:12:21 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:12:21 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#24 - tcpserver.cpp:103
+20180525 00:12:21 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#24] at 0x241CD00 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:12:21 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180525 00:12:21 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#25] from 192.168.155.1:42188 - tcpserver.cpp:74
+20180525 00:12:21 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#25] at 0x241CE90 fd=28 - tcpconnection.cpp:46
+20180525 00:12:21 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180525 00:12:21 INFO  client disconnected: 192.168.155.1:42188 - IMServer.cpp:91
+20180525 00:12:21 INFO  current online user count: 8 - IMServer.cpp:96
+20180525 00:12:21 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#25 - tcpserver.cpp:103
+20180525 00:12:21 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#25] at 0x241CE90 fd=28 state=kDisconnected - tcpconnection.cpp:52
+20180525 00:12:21 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

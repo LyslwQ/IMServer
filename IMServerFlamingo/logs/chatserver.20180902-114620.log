@@ -1,0 +1,17 @@
+20180902 11:46:20 INFO  Init mysql success... - main.cpp:147
+20180902 11:46:20 INFO  Init UserManager success... - main.cpp:152
+20180902 11:46:20 INFO  chatserver initialization complete. - main.cpp:161
+20180902 11:46:23 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#1] from 120.236.177.19:8985 - tcpserver.cpp:74
+20180902 11:46:23 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x26D77A0 fd=22 - tcpconnection.cpp:46
+20180902 11:46:23 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "11111111111", "password": "111", "clienttype": 1, "status": 1}, datalength=76, packageBodySize=91 - ClientSession.cpp:127
+20180902 11:46:23 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 1,"username":"11111111111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=1 - ClientSession.cpp:420
+20180902 11:46:23 INFO  get notify msg cache, userid: 1, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180902 11:46:23 INFO  get chat msg cache, userid: 1, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180902 11:46:23 INFO  Request from client: userid=1, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 11:46:23 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:525
+20180902 11:46:29 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:52822#1] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180902 11:46:29 INFO  client disconnected: 120.236.177.19:8985 - IMServer.cpp:103
+20180902 11:46:29 INFO  current online user count: 0 - IMServer.cpp:108
+20180902 11:46:29 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#1 - tcpserver.cpp:103
+20180902 11:46:29 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x26D77A0 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180902 11:46:29 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

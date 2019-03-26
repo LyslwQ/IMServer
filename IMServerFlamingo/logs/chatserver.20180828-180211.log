@@ -1,0 +1,9 @@
+20180828 18:02:11 INFO  show databases - databasemysql.cpp:92
+20180828 18:02:11 INFO  CMysqlManager::_IsDBExist, find database(myim) - mysqlmanager.cpp:216
+20180828 18:02:11 INFO  desc t_user - databasemysql.cpp:92
+20180828 18:02:11 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180828 18:02:11 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180828 18:02:11 INFO  desc t_device - databasemysql.cpp:92
+20180828 18:02:11 INFO  Init mysql success... - main.cpp:147
+20180828 18:02:11 INFO  Init UserManager success... - main.cpp:152
+20180828 18:02:11 INFO  chatserver initialization complete. - main.cpp:161

@@ -1,0 +1,38 @@
+20180901 21:05:07 INFO  Init mysql success... - main.cpp:147
+20180901 21:05:07 INFO  Init UserManager success... - main.cpp:152
+20180901 21:05:07 INFO  chatserver initialization complete. - main.cpp:161
+20180901 21:07:42 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#1] from 183.236.19.162:7975 - tcpserver.cpp:74
+20180901 21:07:42 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x265D720 fd=22 - tcpconnection.cpp:46
+20180901 21:07:42 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "11111111111", "password": "123", "clienttype": 1, "status": 1}, datalength=76, packageBodySize=91 - ClientSession.cpp:127
+20180901 21:07:42 INFO  Response to client: cmd=msg_type_login, data={"code": 102, "msg": "not registered"}, userid=0 - ClientSession.cpp:420
+20180901 21:07:42 INFO  get notify msg cache, userid: 0, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180901 21:07:42 INFO  get chat msg cache, userid: 0, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180901 21:07:55 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#2] from 183.236.19.162:53789 - tcpserver.cpp:74
+20180901 21:07:55 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0x265E3E0 fd=23 - tcpconnection.cpp:46
+20180901 21:07:55 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180901 21:07:55 INFO  client disconnected: 183.236.19.162:7975 - IMServer.cpp:103
+20180901 21:07:55 INFO  current online user count: 0 - IMServer.cpp:108
+20180901 21:07:55 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#1 - tcpserver.cpp:103
+20180901 21:07:55 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x265D720 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180901 21:07:55 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180901 21:07:55 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "111111111111", "nickname": "111", "password": "111"}, datalength=66, packageBodySize=81 - ClientSession.cpp:127
+20180901 21:07:55 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 0, "msg": "ok"} - ClientSession.cpp:347
+20180901 21:07:58 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180901 21:07:58 INFO  client disconnected: 183.236.19.162:53789 - IMServer.cpp:103
+20180901 21:07:58 INFO  current online user count: 0 - IMServer.cpp:108
+20180901 21:07:58 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#2 - tcpserver.cpp:103
+20180901 21:07:58 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0x265E3E0 fd=23 state=kDisconnected - tcpconnection.cpp:52
+20180901 21:07:58 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180901 21:07:58 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#3] from 183.236.19.162:37661 - tcpserver.cpp:74
+20180901 21:07:58 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#3] at 0x265D720 fd=22 - tcpconnection.cpp:46
+20180901 21:07:58 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "111111111111", "password": "111", "clienttype": 1, "status": 1}, datalength=77, packageBodySize=92 - ClientSession.cpp:127
+20180901 21:07:58 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 1,"username":"111111111111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=1 - ClientSession.cpp:420
+20180901 21:07:58 INFO  get notify msg cache, userid: 1, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180901 21:07:58 INFO  get chat msg cache, userid: 1, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180901 21:07:58 INFO  Request from client: userid=1, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180901 21:07:58 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:520
+20180901 21:08:13 INFO  Request from client: userid=1, cmd=1009, seq=1, data={"groupname": "hello", "type": 0}, datalength=33, packageBodySize=48 - ClientSession.cpp:127
+20180901 21:08:13 INFO  Response to client: userid=1, cmd=msg_type_creategroup, data={"code": 0, "msg": "ok", "groupid":1, "groupname": "hello"} - ClientSession.cpp:921
+20180901 21:08:13 INFO  Response to client: userid=1, cmd=msg_type_addfriend, data={"userid": 1, "type": 3, "username": "hello", "accept": 1} - ClientSession.cpp:928
+20180901 21:08:14 INFO  Request from client: userid=1, cmd=1003, seq=2, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180901 21:08:14 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:520

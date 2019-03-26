@@ -1,0 +1,166 @@
+2018-08-30 13:36:11,582 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-08-30 13:36:11,646 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:55208
+
+2018-08-30 13:36:11,646 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-08-30 13:36:15,619 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:55250
+
+2018-08-30 13:36:15,849 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-08-30 13:36:15,849 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-08-30 14:51:30,595 [INFO  IM] - <BaseSocket.cpp>|<66>|<Listen>,bind failed, err_code=98
+2018-08-30 14:59:43,109 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-08-30 14:59:43,257 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:56864
+
+2018-08-30 14:59:43,257 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:56878
+
+2018-08-30 14:59:43,257 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-08-30 14:59:43,257 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-08-30 14:59:43,257 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-05 23:20:40,505 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-05 23:20:48,006 [INFO  IM] - <BaseSocket.cpp>|<66>|<Listen>,bind failed, err_code=98
+2018-09-05 23:20:55,422 [INFO  IM] - <BaseSocket.cpp>|<66>|<Listen>,bind failed, err_code=98
+2018-09-05 23:25:34,396 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:46424
+
+2018-09-05 23:25:34,466 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-05 23:25:34,466 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-05 23:58:12,546 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=7 
+2018-09-05 23:58:13,320 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:46836
+
+2018-09-05 23:58:13,320 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-05 23:58:13,320 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 00:21:03,060 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-06 00:21:41,601 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:40794
+
+2018-09-06 00:21:41,957 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 00:21:41,957 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 00:35:25,905 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=7 
+2018-09-06 00:35:27,112 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:40878
+
+2018-09-06 00:35:27,113 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 00:35:27,113 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 00:43:22,087 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-06 00:43:51,983 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:41008
+
+2018-09-06 00:43:52,029 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 00:43:56,232 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=7 
+2018-09-06 00:43:58,865 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:41026
+
+2018-09-06 00:43:58,865 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 00:44:55,024 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:41040
+
+2018-09-06 00:44:55,059 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 00:44:55,059 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 01:07:26,836 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=8 
+2018-09-06 01:07:41,428 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=7 
+2018-09-06 01:16:18,687 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-06 01:16:19,506 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:41168
+
+2018-09-06 01:16:19,615 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 01:16:20,434 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:41186
+
+2018-09-06 01:16:20,435 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 01:16:20,435 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 13:26:11,506 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-06 13:26:11,545 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:57934
+
+2018-09-06 13:26:11,545 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 13:26:12,162 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:57948
+
+2018-09-06 13:26:12,162 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 13:26:12,162 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 14:20:20,296 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-06 14:20:21,447 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 192.168.155.128:45966
+
+2018-09-06 14:20:21,447 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 14:20:21,447 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 14:20:24,071 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:58296
+
+2018-09-06 14:20:24,109 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 14:28:30,264 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2018-09-06 14:28:30,482 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:58532
+
+2018-09-06 14:28:30,482 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 14:28:30,765 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:46236
+
+2018-09-06 14:28:30,765 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 14:28:30,765 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 14:37:09,654 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8200
+2018-09-06 14:37:09,654 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 192.168.155.128:46830
+
+2018-09-06 14:37:09,654 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 14:37:10,145 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:46844
+
+2018-09-06 14:37:10,145 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 14:37:10,145 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 14:48:26,658 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=8 
+2018-09-06 14:49:03,603 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=7 
+2018-09-06 14:55:35,127 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8200
+2018-09-06 14:55:35,457 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 192.168.155.128:47682
+
+2018-09-06 14:55:35,457 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 14:55:36,401 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:47696
+
+2018-09-06 14:55:36,402 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 14:55:36,402 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 15:02:04,774 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8200
+2018-09-06 15:02:05,239 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 192.168.155.128:48200
+
+2018-09-06 15:02:05,240 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 15:02:05,240 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 15:02:08,819 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:48204
+
+2018-09-06 15:02:08,820 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 15:02:36,697 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1, client_type=1 
+2018-09-06 15:02:37,176 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:02:39,274 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:03:29,490 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=1, client_type=1 
+2018-09-06 15:03:50,115 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1, client_type=1 
+2018-09-06 15:03:50,205 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:03:50,229 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:05:29,037 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=1, client_type=1 
+2018-09-06 15:05:58,543 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1, client_type=1 
+2018-09-06 15:05:58,586 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:05:58,651 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:06:12,297 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=3816741856, client_type=1 
+2018-09-06 15:06:12,323 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=3816741856, query_count=1 
+2018-09-06 15:06:13,365 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=3816741856, query_count=1 
+2018-09-06 15:07:23,023 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=1, client_type=1 
+2018-09-06 15:07:26,354 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=3732814816, client_type=1 
+2018-09-06 15:07:26,357 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=3732814816, client_type=1 
+2018-09-06 15:07:26,430 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=3732814816, query_count=1 
+2018-09-06 15:07:27,705 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=3732814816, query_count=1 
+2018-09-06 15:07:47,416 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=3732814816, client_type=1 
+2018-09-06 15:07:48,249 [INFO  IM] - <RouteConn.cpp>|<103>|<OnClose>,MsgServer onclose: handle=7 
+2018-09-06 15:08:26,959 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8200
+2018-09-06 15:08:27,156 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 192.168.155.128:48280
+
+2018-09-06 15:08:27,157 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 15:08:27,563 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:48294
+
+2018-09-06 15:08:27,563 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 15:08:27,563 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 15:11:17,719 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8200
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 192.168.155.128:48550
+
+2018-09-06 15:11:17,850 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:48564
+
+2018-09-06 15:11:18,143 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2018-09-06 15:11:18,143 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2018-09-06 15:17:58,715 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1, client_type=1 
+2018-09-06 15:17:58,746 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:17:58,759 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:18:07,840 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1, client_type=1 
+2018-09-06 15:18:07,841 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=1, client_type=1 
+2018-09-06 15:18:07,880 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:18:07,891 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=1 
+2018-09-06 15:18:35,611 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1291783136, client_type=1 
+2018-09-06 15:18:36,630 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1291783136, query_count=1 
+2018-09-06 15:18:36,630 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1291783136, query_count=1 
+2018-09-06 15:19:01,213 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=1291783136, client_type=1 
+2018-09-06 15:21:50,745 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=2, uid=1, client_type=1 
+2018-09-06 15:21:56,435 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=1, client_type=1 
+2018-09-06 15:21:56,657 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=2 
+2018-09-06 15:21:56,657 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=1, query_count=2 
+2018-09-06 15:22:32,094 [INFO  IM] - <RouteConn.cpp>|<185>|<_HandleUserStatusUpdate>,HandleUserStatusUpdate, status=1, uid=2, client_type=1 
+2018-09-06 15:22:33,249 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=2, query_count=2 
+2018-09-06 15:22:33,249 [INFO  IM] - <RouteConn.cpp>|<281>|<_HandleUsersStatusRequest>,HandleUserStatusReq, req_id=2, query_count=2 

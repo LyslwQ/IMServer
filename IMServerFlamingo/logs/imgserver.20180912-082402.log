@@ -1,0 +1,7 @@
+20180913 02:10:37 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:40109#24] from 185.209.0.12:29955 - tcpserver.cpp:74
+20180913 02:10:37 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYImgAndFileServer:0.0.0.0:40109#24] at 0x1EB3B30 fd=6 - tcpconnection.cpp:46
+20180913 04:10:49 ERROR TcpConnection::handleError [ZYL-MYImgAndFileServer:0.0.0.0:40109#24] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180913 04:10:49 ERROR connection is NULL - FileServer.cpp:49
+20180913 04:10:49 INFO  TcpServer::removeConnectionInLoop [ZYL-MYImgAndFileServer] - connection ZYL-MYImgAndFileServer:0.0.0.0:40109#24 - tcpserver.cpp:103
+20180913 04:10:49 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYImgAndFileServer:0.0.0.0:40109#24] at 0x1EB3B30 fd=6 state=kDisconnected - tcpconnection.cpp:52
+20180913 04:10:49 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

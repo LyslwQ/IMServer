@@ -1,0 +1,52 @@
+20180906 21:27:21 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#6] from 183.57.54.43:11943 - tcpserver.cpp:74
+20180906 21:27:21 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#6] at 0x1FDAF60 fd=6 - tcpconnection.cpp:46
+20180906 21:27:32 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180906 21:27:32 INFO  client disconnected: 183.57.54.43:11943 - IMServer.cpp:103
+20180906 21:27:32 INFO  current online user count: 0 - IMServer.cpp:108
+20180906 21:27:32 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#6 - tcpserver.cpp:103
+20180906 21:27:32 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#6] at 0x1FDAF60 fd=6 state=kDisconnected - tcpconnection.cpp:52
+20180906 21:27:32 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180906 21:27:32 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#7] from 183.57.54.43:25514 - tcpserver.cpp:74
+20180906 21:27:32 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#7] at 0x1FDAF60 fd=6 - tcpconnection.cpp:46
+20180906 21:27:32 ERROR Illegal package heade size, close TcpConnection, client: 183.57.54.43:25514 - ClientSession.cpp:71
+20180906 21:27:32 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180906 21:27:32 INFO  client disconnected: 183.57.54.43:25514 - IMServer.cpp:103
+20180906 21:27:32 INFO  current online user count: 0 - IMServer.cpp:108
+20180906 21:27:32 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#7 - tcpserver.cpp:103
+20180906 21:27:32 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#7] at 0x1FDAF60 fd=6 state=kDisconnected - tcpconnection.cpp:52
+20180906 21:27:32 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180906 21:27:32 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#8] from 183.57.54.43:26282 - tcpserver.cpp:74
+20180906 21:27:32 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#8] at 0x1FDAF60 fd=6 - tcpconnection.cpp:46
+20180906 21:27:32 ERROR Illegal package heade size, close TcpConnection, client: 183.57.54.43:26282 - ClientSession.cpp:71
+20180906 21:27:32 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180906 21:27:32 INFO  client disconnected: 183.57.54.43:26282 - IMServer.cpp:103
+20180906 21:27:32 INFO  current online user count: 0 - IMServer.cpp:108
+20180906 21:27:32 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#8 - tcpserver.cpp:103
+20180906 21:27:32 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#8] at 0x1FDAF60 fd=6 state=kDisconnected - tcpconnection.cpp:52
+20180906 21:27:32 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180906 21:27:32 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#9] from 183.57.54.43:27050 - tcpserver.cpp:74
+20180906 21:27:32 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#9] at 0x1FDAF60 fd=6 - tcpconnection.cpp:46
+20180906 21:27:37 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180906 21:27:37 INFO  client disconnected: 183.57.54.43:27050 - IMServer.cpp:103
+20180906 21:27:37 INFO  current online user count: 0 - IMServer.cpp:108
+20180906 21:27:37 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#9 - tcpserver.cpp:103
+20180906 21:27:37 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#9] at 0x1FDAF60 fd=6 state=kDisconnected - tcpconnection.cpp:52
+20180906 21:27:37 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180906 21:27:37 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#10] from 183.57.54.43:26795 - tcpserver.cpp:74
+20180906 21:27:37 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#10] at 0x1FDAF60 fd=6 - tcpconnection.cpp:46
+20180906 21:27:37 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#11] from 183.57.54.43:24322 - tcpserver.cpp:74
+20180906 21:27:37 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#11] at 0x1FDA0E0 fd=23 - tcpconnection.cpp:46
+20180906 21:27:37 ERROR Illegal package heade size, close TcpConnection, client: 183.57.54.43:24322 - ClientSession.cpp:71
+20180906 21:27:37 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180906 21:27:37 INFO  client disconnected: 183.57.54.43:24322 - IMServer.cpp:103
+20180906 21:27:37 INFO  current online user count: 1 - IMServer.cpp:108
+20180906 21:27:37 ERROR Illegal package heade size, close TcpConnection, client: 183.57.54.43:26795 - ClientSession.cpp:71
+20180906 21:27:37 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180906 21:27:37 INFO  client disconnected: 183.57.54.43:26795 - IMServer.cpp:103
+20180906 21:27:37 INFO  current online user count: 0 - IMServer.cpp:108
+20180906 21:27:37 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#11 - tcpserver.cpp:103
+20180906 21:27:37 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#10 - tcpserver.cpp:103
+20180906 21:27:37 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#10] at 0x1FDAF60 fd=6 state=kDisconnected - tcpconnection.cpp:52
+20180906 21:27:37 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180906 21:27:37 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#11] at 0x1FDA0E0 fd=23 state=kDisconnected - tcpconnection.cpp:52
+20180906 21:27:37 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

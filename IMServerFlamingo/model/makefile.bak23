@@ -1,0 +1,57 @@
+TRAGET = main
+XX     = g++
+CPPFLAGS = -Wall -O -g -std=c++11
+SOURCE = $(wildcard *.cpp)
+OBJ    = $(subst .cpp,.o,$(SOURCE))
+LIB    = -lodb-mysql -lodb 
+HXX    = $(wildcard *.hxx)
+
+target :$(OBJ)
+	$(XX) $(CPPFLAGS) -o $(TRAGET) $(OBJ)  $(LIB) 
+
+#include ${OBJ:.o=.d}  
+FILE = test.d
+%.d: %.cpp
+	set -e;\
+	rm -f $@\ 
+	$(XX) -MM $(CPPFLAGS) $(LIB) $< > $@.$$$$; \
+	sed 's,\($*\)\.o[ :]*,\1.o $@ : ,g' < $@.$$$$ > $@; \
+	rm -f $@.$$$$
+
+*.o:*.cpp
+	$(XX) $(CFLAGS) -c $< -o $@  $(LIB) 
+
+*.hxx: 
+	odb -d mysql  --generate-schema --schema-name $(basename $@)  --schema-format embedded \
+ 	--generate-query $@
+	$(shell mv -f $@  $($@:.hxx=.cpp) 
+
+#Use:Use-odb.hxx Use.hxx 
+#	odb -d mysql --generate-schema --schema-name User --schema-format embedded \
+#	--generate-query User.hxx
+#	$(shell mv -f User-odb.cxx User-odb.cpp) 
+#
+#IMGroup:IMGroup.hxx IMGroup-odb.hxx
+#	odb -d mysql --generate-schema --schema-name IMGroup --schema-format embedded \
+#	--generate-query IMGroup.hxx
+#	$(shell mv -f IMGroup-odb.cxx IMGroup-odb.cpp) 
+#	$(XX) $(CFLAGS) -o main Relationship-odb.cxx User-odb.cxx IMGroup-odb.cxx -DDATABASE_MYSQL  test.cpp Model.cpp Relationship.cpp  User.cpp IMGroup.cpp $(LIB)
+#
+
+
+	
+
+#%.o : %.cpp 
+#	$(XX) $(CFLAGS) -c $< -o $@ 
+
+#SOURCES = $(wildcard *.cpp)
+#OBJS    = $(patsubst %.cpp, %.o, $SOURCES)
+
+#$(TARGET) : $(OBJS)
+#	$(XX) $(OBJS) -o $(TARGET)
+
+run :
+	./main 
+
+clean:
+	rm -fr $(wildcard *.o)  $(wildcard *.d*) main

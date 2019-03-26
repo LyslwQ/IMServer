@@ -1,0 +1,36 @@
+20180902 11:44:41 INFO  Init mysql success... - main.cpp:147
+20180902 11:44:41 INFO  Init UserManager success... - main.cpp:152
+20180902 11:44:41 INFO  chatserver initialization complete. - main.cpp:161
+20180902 11:44:47 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#1] from 120.236.177.19:37648 - tcpserver.cpp:74
+20180902 11:44:47 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0xBF2720 fd=22 - tcpconnection.cpp:46
+20180902 11:44:47 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "11111111111", "password": "111", "clienttype": 1, "status": 1}, datalength=76, packageBodySize=91 - ClientSession.cpp:127
+20180902 11:44:47 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 1,"username":"11111111111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=1 - ClientSession.cpp:420
+20180902 11:44:47 INFO  get notify msg cache, userid: 1, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180902 11:44:47 INFO  get chat msg cache, userid: 1, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180902 11:44:48 INFO  Request from client: userid=1, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 11:44:48 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:525
+20180902 11:44:55 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:52822#1] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180902 11:44:55 INFO  client disconnected: 120.236.177.19:37648 - IMServer.cpp:103
+20180902 11:44:55 INFO  current online user count: 0 - IMServer.cpp:108
+20180902 11:44:55 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#1 - tcpserver.cpp:103
+20180902 11:44:55 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0xBF2720 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180902 11:44:55 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180902 11:45:03 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#2] from 120.236.177.19:44816 - tcpserver.cpp:74
+20180902 11:45:03 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0xBF2720 fd=22 - tcpconnection.cpp:46
+20180902 11:45:03 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "11111111111", "password": "111", "clienttype": 1, "status": 1}, datalength=76, packageBodySize=91 - ClientSession.cpp:127
+20180902 11:45:03 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 1,"username":"11111111111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=1 - ClientSession.cpp:420
+20180902 11:45:03 INFO  get notify msg cache, userid: 1, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180902 11:45:03 INFO  get chat msg cache, userid: 1, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180902 11:45:03 INFO  Request from client: userid=1, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 11:45:03 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:525
+20180902 11:45:14 INFO  Request from client: userid=1, cmd=1009, seq=1, data={"groupname": "hello", "type": 0}, datalength=33, packageBodySize=48 - ClientSession.cpp:127
+20180902 11:45:14 INFO  Response to client: userid=1, cmd=msg_type_creategroup, data={"code": 0, "msg": "ok", "groupid":1, "groupname": "hello"} - ClientSession.cpp:926
+20180902 11:45:14 INFO  Response to client: userid=1, cmd=msg_type_addfriend, data={"userid": 1, "type": 3, "username": "hello", "accept": 1} - ClientSession.cpp:933
+20180902 11:45:14 INFO  Request from client: userid=1, cmd=1003, seq=2, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 11:45:14 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:525
+20180902 11:45:28 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:52822#2] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180902 11:45:28 INFO  client disconnected: 120.236.177.19:44816 - IMServer.cpp:103
+20180902 11:45:28 INFO  current online user count: 0 - IMServer.cpp:108
+20180902 11:45:28 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#2 - tcpserver.cpp:103
+20180902 11:45:28 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0xBF2720 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180902 11:45:28 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

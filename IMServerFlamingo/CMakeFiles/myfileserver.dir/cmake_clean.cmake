@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/myfileserver.dir/base/timestamp.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/countdownlatch.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/fileutil.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/logging.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/logfile.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/logstream.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/asynclogging.cpp.o"
+  "CMakeFiles/myfileserver.dir/base/configfilereader.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/acceptor.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/buffer.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/channel.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/connector.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/epollpoller.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/eventloop.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/inetaddress.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/sockets.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/tcpclient.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/tcpconnection.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/tcpserver.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/eventloopthread.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/eventloopthreadpool.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/protocolstream.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/Timer.cpp.o"
+  "CMakeFiles/myfileserver.dir/net/TimerQueue.cpp.o"
+  "CMakeFiles/myfileserver.dir/common/ngx_md5.cpp.o"
+  "CMakeFiles/myfileserver.dir/fileserversrc/main.cpp.o"
+  "CMakeFiles/myfileserver.dir/fileserversrc/FileServer.cpp.o"
+  "CMakeFiles/myfileserver.dir/fileserversrc/FileSession.cpp.o"
+  "CMakeFiles/myfileserver.dir/fileserversrc/FileManager.cpp.o"
+  "CMakeFiles/myfileserver.dir/fileserversrc/MD5.cpp.o"
+  "CMakeFiles/myfileserver.dir/fileserversrc/TcpSession.cpp.o"
+  "myfileserver.pdb"
+  "myfileserver"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/myfileserver.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

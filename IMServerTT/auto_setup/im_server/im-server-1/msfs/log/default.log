@@ -1,0 +1,18 @@
+2018-08-30 15:01:17,469 [INFO  IM] - <main.cpp>|<131>|<main>,MsgServer max files can open: 1024
+2018-08-30 15:01:17,469 [INFO  IM] - <main.cpp>|<148>|<main>,0.0.0.0,8700
+2018-08-30 15:01:22,220 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8700
+2018-08-30 15:01:32,490 [INFO  IM] - <main.cpp>|<103>|<Stop>,receive signal:2
+2018-08-30 15:01:32,492 [INFO  IM] - <main.cpp>|<99>|<doQuitJob>,I'm ready quit...
+2018-08-30 15:02:34,927 [INFO  IM] - <main.cpp>|<131>|<main>,MsgServer max files can open: 1024
+2018-08-30 15:02:34,927 [INFO  IM] - <main.cpp>|<148>|<main>,0.0.0.0,8700
+2018-08-30 15:02:36,486 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8700
+2018-08-30 15:50:55,491 [INFO  IM] - <main.cpp>|<103>|<Stop>,receive signal:15
+2018-08-30 15:50:56,280 [INFO  IM] - <main.cpp>|<99>|<doQuitJob>,I'm ready quit...
+2018-09-06 00:20:07,578 [INFO  IM] - <main.cpp>|<131>|<main>,MsgServer max files can open: 1024
+2018-09-06 00:20:07,584 [INFO  IM] - <main.cpp>|<148>|<main>,0.0.0.0,8700
+2018-09-06 00:20:19,207 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8700
+2018-09-06 00:43:00,779 [INFO  IM] - <main.cpp>|<131>|<main>,MsgServer max files can open: 1024
+2018-09-06 00:43:00,786 [INFO  IM] - <main.cpp>|<148>|<main>,0.0.0.0,8700
+2018-09-06 00:43:04,838 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8700
+2018-09-06 01:08:35,685 [INFO  IM] - <main.cpp>|<103>|<Stop>,receive signal:15
+2018-09-06 01:08:35,743 [INFO  IM] - <main.cpp>|<99>|<doQuitJob>,I'm ready quit...

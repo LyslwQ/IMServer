@@ -1,0 +1,9 @@
+20180329 21:48:23 INFO  show databases - databasemysql.cpp:92
+20180329 21:48:23 INFO  CMysqlManager::_IsDBExist, find database(myim) - mysqlmanager.cpp:218
+20180329 21:48:23 INFO  desc t_user - databasemysql.cpp:92
+20180329 21:48:23 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180329 21:48:23 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180329 21:48:23 INFO  desc t_device - databasemysql.cpp:92
+20180329 21:48:23 INFO  SELECT f_user_id, f_username, f_nickname, f_password,  f_facetype, f_customface, f_gender, f_birthday, f_signature, f_address, f_phonenumber, f_mail FROM t_user ORDER BY  f_user_id DESC - databasemysql.cpp:92
+20180329 21:48:23 INFO  current base userid: 0, current base group id: 268435455 - UserManager.cpp:103
+20180329 21:48:23 INFO  chatserver initialization complete. - main.cpp:161

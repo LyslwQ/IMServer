@@ -1,0 +1,16 @@
+20180903 10:12:32 INFO  fileserver initialization complete. - main.cpp:144
+20180904 04:26:54 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:13698#1] from 194.28.112.50:1928 - tcpserver.cpp:74
+20180904 04:26:54 ERROR TcpConnection::handleError [ZYL-MYImgAndFileServer:0.0.0.0:13698#1] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180904 04:26:54 INFO  client disconnected: 194.28.112.50:1928 - FileServer.cpp:56
+20180904 04:26:54 INFO  TcpServer::removeConnectionInLoop [ZYL-MYImgAndFileServer] - connection ZYL-MYImgAndFileServer:0.0.0.0:13698#1 - tcpserver.cpp:103
+20180904 04:26:54 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180904 04:26:54 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:13698#2] from 194.28.112.50:2442 - tcpserver.cpp:74
+20180904 04:26:54 ERROR Illegal package heade size, close TcpConnection, client: 194.28.112.50:2442 - FileSession.cpp:54
+20180904 04:26:54 INFO  client disconnected: 194.28.112.50:2442 - FileServer.cpp:56
+20180904 04:26:54 INFO  TcpServer::removeConnectionInLoop [ZYL-MYImgAndFileServer] - connection ZYL-MYImgAndFileServer:0.0.0.0:13698#2 - tcpserver.cpp:103
+20180904 04:26:54 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180904 04:26:55 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:13698#3] from 194.28.112.50:8334 - tcpserver.cpp:74
+20180904 04:26:55 ERROR Illegal package heade size, close TcpConnection, client: 194.28.112.50:8334 - FileSession.cpp:54
+20180904 04:26:55 INFO  client disconnected: 194.28.112.50:8334 - FileServer.cpp:56
+20180904 04:26:55 INFO  TcpServer::removeConnectionInLoop [ZYL-MYImgAndFileServer] - connection ZYL-MYImgAndFileServer:0.0.0.0:13698#3 - tcpserver.cpp:103
+20180904 04:26:55 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

@@ -1,0 +1,156 @@
+2018-09-06 15:11:17,480 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: unread, list size: 2
+2018-09-06 15:11:17,482 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: group_set, list size: 2
+2018-09-06 15:11:17,496 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: token, list size: 2
+2018-09-06 15:11:17,496 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: sync, list size: 2
+2018-09-06 15:11:17,496 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: group_member, list size: 2
+2018-09-06 15:11:17,524 [INFO  IM] - <DBPool.cpp>|<334>|<Init>,db pool: teamtalk_master, size: 2
+2018-09-06 15:11:17,524 [INFO  IM] - <DBPool.cpp>|<334>|<Init>,db pool: teamtalk_slave, size: 2
+2018-09-06 15:11:17,529 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:10600
+2018-09-06 15:11:17,556 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217877
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=21 from 192.168.155.128:43552
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43552, handle=21
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=22 from 192.168.155.128:43554
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43554, handle=22
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=23 from 192.168.155.128:43556
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43556, handle=23
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=24 from 192.168.155.128:43558
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43558, handle=24
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=25 from 192.168.155.128:43560
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43560, handle=25
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=26 from 192.168.155.128:43562
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43562, handle=26
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=27 from 192.168.155.128:43564
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43564, handle=27
+2018-09-06 15:11:17,850 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=28 from 192.168.155.128:43566
+
+2018-09-06 15:11:17,850 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43566, handle=28
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=29 from 192.168.155.128:43572
+
+2018-09-06 15:11:18,143 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43572, handle=29
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=30 from 192.168.155.128:43574
+
+2018-09-06 15:11:18,143 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43574, handle=30
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=31 from 192.168.155.128:43576
+
+2018-09-06 15:11:18,143 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43576, handle=31
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=32 from 192.168.155.128:43578
+
+2018-09-06 15:11:18,143 [INFO  IM] - <ProxyConn.cpp>|<141>|<OnConnect>,connect from 192.168.155.128:43578, handle=32
+2018-09-06 15:11:22,001 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217877
+2018-09-06 15:11:27,003 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217882
+2018-09-06 15:11:32,003 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217887
+2018-09-06 15:11:37,008 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217892
+2018-09-06 15:11:42,002 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217897
+2018-09-06 15:11:43,194 [INFO  IM] - <Login.cpp>|<92>|<doLogin>,wo request login.
+2018-09-06 15:11:43,194 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMUser' doesn't exist, sql: select * from IMUser where name='wo' and status=0
+2018-09-06 15:11:43,194 [INFO  IM] - <Login.cpp>|<131>|<doLogin>,get result false
+2018-09-06 15:11:47,004 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217902
+2018-09-06 15:11:52,002 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217907
+2018-09-06 15:11:57,002 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217912
+2018-09-06 15:12:02,008 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217917
+2018-09-06 15:12:07,011 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217922
+2018-09-06 15:12:12,000 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217927
+2018-09-06 15:12:16,009 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217931
+2018-09-06 15:12:21,002 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217936
+2018-09-06 15:12:26,002 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217941
+2018-09-06 15:12:31,009 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217946
+2018-09-06 15:12:36,001 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217951
+2018-09-06 15:12:41,010 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217956
+2018-09-06 15:12:46,001 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217961
+2018-09-06 15:12:51,004 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217966
+2018-09-06 15:12:56,001 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217971
+2018-09-06 15:13:01,009 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217976
+2018-09-06 15:13:06,004 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217981
+2018-09-06 15:13:11,002 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217986
+2018-09-06 15:13:16,006 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217991
+2018-09-06 15:13:21,019 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536217996
+2018-09-06 15:13:26,001 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218001
+2018-09-06 15:13:31,011 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218006
+2018-09-06 15:13:36,004 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218011
+2018-09-06 15:13:41,005 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218016
+2018-09-06 15:13:46,010 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218021
+2018-09-06 15:13:51,003 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218026
+2018-09-06 15:13:56,010 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMGroup' doesn't exist, sql: select id, lastChated from IMGroup where status=0 and lastChated >=1536218031
+2018-09-06 15:17:58,704 [INFO  IM] - <Login.cpp>|<92>|<doLogin>,aifusen request login.
+2018-09-06 15:17:58,721 [INFO  IM] - <DBPool.cpp>|<360>|<GetDBConn>,new db connection: teamtalk_slave, conn_cnt: 3
+2018-09-06 15:17:58,721 [INFO  IM] - <DepartModel.cpp>|<58>|<getDepts>,list is empty
+2018-09-06 15:17:58,721 [INFO  IM] - <DepartAction.cpp>|<43>|<getChgedDepart>,userId=1, last_update=0, cnt=0
+2018-09-06 15:17:58,722 [INFO  IM] - <GroupAction.cpp>|<115>|<getNormalGroupList>,getNormalGroupList. userId=1, count=0
+2018-09-06 15:17:58,724 [INFO  IM] - <UserAction.cpp>|<115>|<getChangedUser>,userId=1,nLastUpdate=1536217877, last_time=0, userCnt=1
+2018-09-06 15:17:58,748 [INFO  IM] - <RecentSession.cpp>|<64>|<getRecentSession>,userId=1, last_time=0, count=0
+2018-09-06 15:18:00,275 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMTransmitFile' doesn't exist, sql: select * from IMTransmitFile where toId=1 and status=0 order by created
+2018-09-06 15:18:00,275 [INFO  IM] - <FileModel.cpp>|<57>|<getOfflineFile>,no result for:select * from IMTransmitFile where toId=1 and status=0 order by created
+2018-09-06 15:18:00,275 [INFO  IM] - <FileAction.cpp>|<43>|<hasOfflineFile>,userId=1, count=0
+2018-09-06 15:18:00,276 [INFO  IM] - <MessageCounter.cpp>|<57>|<getUnreadMsgCounter>,userId=1, unreadCnt=0, totalCount=0
+2018-09-06 15:18:07,829 [INFO  IM] - <Login.cpp>|<92>|<doLogin>,aifusen request login.
+2018-09-06 15:18:07,858 [INFO  IM] - <GroupAction.cpp>|<115>|<getNormalGroupList>,getNormalGroupList. userId=1, count=0
+2018-09-06 15:18:07,858 [INFO  IM] - <DepartModel.cpp>|<58>|<getDepts>,list is empty
+2018-09-06 15:18:07,858 [INFO  IM] - <DepartAction.cpp>|<43>|<getChgedDepart>,userId=1, last_update=0, cnt=0
+2018-09-06 15:18:07,858 [INFO  IM] - <UserAction.cpp>|<115>|<getChangedUser>,userId=1,nLastUpdate=1536217877, last_time=0, userCnt=1
+2018-09-06 15:18:07,891 [INFO  IM] - <RecentSession.cpp>|<64>|<getRecentSession>,userId=1, last_time=0, count=0
+2018-09-06 15:18:07,944 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMTransmitFile' doesn't exist, sql: select * from IMTransmitFile where toId=1 and status=0 order by created
+2018-09-06 15:18:07,944 [INFO  IM] - <FileModel.cpp>|<57>|<getOfflineFile>,no result for:select * from IMTransmitFile where toId=1 and status=0 order by created
+2018-09-06 15:18:07,944 [INFO  IM] - <FileAction.cpp>|<43>|<hasOfflineFile>,userId=1, count=0
+2018-09-06 15:18:07,944 [INFO  IM] - <MessageCounter.cpp>|<57>|<getUnreadMsgCounter>,userId=1, unreadCnt=0, totalCount=0
+2018-09-06 15:18:35,599 [INFO  IM] - <Login.cpp>|<92>|<doLogin>,wo request login.
+2018-09-06 15:18:35,628 [INFO  IM] - <GroupAction.cpp>|<115>|<getNormalGroupList>,getNormalGroupList. userId=1291783136, count=0
+2018-09-06 15:18:35,628 [INFO  IM] - <DepartModel.cpp>|<58>|<getDepts>,list is empty
+2018-09-06 15:18:35,629 [INFO  IM] - <DepartAction.cpp>|<43>|<getChgedDepart>,userId=1291783136, last_update=0, cnt=0
+2018-09-06 15:18:35,629 [INFO  IM] - <UserAction.cpp>|<115>|<getChangedUser>,userId=1291783136,nLastUpdate=1536217877, last_time=0, userCnt=1
+2018-09-06 15:18:36,631 [INFO  IM] - <RecentSession.cpp>|<64>|<getRecentSession>,userId=1291783136, last_time=0, count=0
+2018-09-06 15:18:36,654 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMTransmitFile' doesn't exist, sql: select * from IMTransmitFile where toId=1291783136 and status=0 order by created
+2018-09-06 15:18:36,654 [INFO  IM] - <FileModel.cpp>|<57>|<getOfflineFile>,no result for:select * from IMTransmitFile where toId=1291783136 and status=0 order by created
+2018-09-06 15:18:36,654 [INFO  IM] - <FileAction.cpp>|<43>|<hasOfflineFile>,userId=1291783136, count=0
+2018-09-06 15:18:36,655 [INFO  IM] - <MessageCounter.cpp>|<57>|<getUnreadMsgCounter>,userId=1291783136, unreadCnt=0, totalCount=0
+2018-09-06 15:21:17,015 [INFO  IM] - <UserAction.cpp>|<143>|<changeUserSignInfo>,changeUserSignInfo sucess, user_id=1, sign_info=hello world
+2018-09-06 15:21:56,423 [INFO  IM] - <Login.cpp>|<92>|<doLogin>,aifusen request login.
+2018-09-06 15:21:56,448 [INFO  IM] - <DepartModel.cpp>|<58>|<getDepts>,list is empty
+2018-09-06 15:21:56,448 [INFO  IM] - <DepartAction.cpp>|<43>|<getChgedDepart>,userId=1, last_update=0, cnt=0
+2018-09-06 15:21:56,448 [INFO  IM] - <GroupAction.cpp>|<115>|<getNormalGroupList>,getNormalGroupList. userId=1, count=0
+2018-09-06 15:21:56,449 [INFO  IM] - <UserAction.cpp>|<115>|<getChangedUser>,userId=1,nLastUpdate=1536218476, last_time=1536218476, userCnt=2
+2018-09-06 15:21:56,514 [INFO  IM] - <RecentSession.cpp>|<64>|<getRecentSession>,userId=1, last_time=0, count=0
+2018-09-06 15:21:56,670 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMTransmitFile' doesn't exist, sql: select * from IMTransmitFile where toId=1 and status=0 order by created
+2018-09-06 15:21:56,670 [INFO  IM] - <FileModel.cpp>|<57>|<getOfflineFile>,no result for:select * from IMTransmitFile where toId=1 and status=0 order by created
+2018-09-06 15:21:56,670 [INFO  IM] - <FileAction.cpp>|<43>|<hasOfflineFile>,userId=1, count=0
+2018-09-06 15:21:56,670 [INFO  IM] - <MessageCounter.cpp>|<57>|<getUnreadMsgCounter>,userId=1, unreadCnt=0, totalCount=0
+2018-09-06 15:22:32,083 [INFO  IM] - <Login.cpp>|<92>|<doLogin>,hello request login.
+2018-09-06 15:22:32,119 [INFO  IM] - <GroupAction.cpp>|<115>|<getNormalGroupList>,getNormalGroupList. userId=2, count=0
+2018-09-06 15:22:32,119 [INFO  IM] - <DepartModel.cpp>|<58>|<getDepts>,list is empty
+2018-09-06 15:22:32,119 [INFO  IM] - <DepartAction.cpp>|<43>|<getChgedDepart>,userId=2, last_update=0, cnt=0
+2018-09-06 15:22:32,120 [INFO  IM] - <UserAction.cpp>|<115>|<getChangedUser>,userId=2,nLastUpdate=1536218476, last_time=1536218476, userCnt=2
+2018-09-06 15:22:33,250 [INFO  IM] - <RecentSession.cpp>|<64>|<getRecentSession>,userId=2, last_time=0, count=0
+2018-09-06 15:22:33,273 [INFO  IM] - <DBPool.cpp>|<251>|<ExecuteQuery>,mysql_real_query failed: Table 'teamtalk.IMTransmitFile' doesn't exist, sql: select * from IMTransmitFile where toId=2 and status=0 order by created
+2018-09-06 15:22:33,273 [INFO  IM] - <FileModel.cpp>|<57>|<getOfflineFile>,no result for:select * from IMTransmitFile where toId=2 and status=0 order by created
+2018-09-06 15:22:33,273 [INFO  IM] - <FileAction.cpp>|<43>|<hasOfflineFile>,userId=2, count=0
+2018-09-06 15:22:33,273 [INFO  IM] - <MessageCounter.cpp>|<57>|<getUnreadMsgCounter>,userId=2, unreadCnt=0, totalCount=0
+2018-09-06 15:22:40,239 [INFO  IM] - <MessageModel.cpp>|<105>|<getMessage>,no relation between 1 and 140015933849602
+2018-09-06 15:22:40,239 [INFO  IM] - <MessageContent.cpp>|<72>|<getMessage>,userId=1, peerId=2, msgId=0, msgCnt=10, count=0
+2018-09-06 15:22:47,541 [INFO  IM] - <RelationModel.cpp>|<142>|<addRelation>,reset msgId failed. smallId=1, bigId=2.
+2018-09-06 15:22:47,607 [INFO  IM] - <MessageContent.cpp>|<234>|<sendMessage>,fromId=1, toId=2, type=1, msgId=1, sessionId=2
+2018-09-06 15:22:47,684 [INFO  IM] - <MessageCounter.cpp>|<267>|<getDevicesToken>,req devices token.reqCnt=1, resCnt=0
+2018-09-06 15:22:58,374 [INFO  IM] - <MessageCounter.cpp>|<80>|<clearUnreadMsgCounter>,userId=1, peerId=2, type=1
+2018-09-06 15:23:02,051 [INFO  IM] - <MessageContent.cpp>|<234>|<sendMessage>,fromId=2, toId=1, type=1, msgId=2, sessionId=2
+2018-09-06 15:23:02,063 [INFO  IM] - <MessageCounter.cpp>|<267>|<getDevicesToken>,req devices token.reqCnt=1, resCnt=0
+2018-09-06 15:23:13,734 [INFO  IM] - <MessageCounter.cpp>|<80>|<clearUnreadMsgCounter>,userId=2, peerId=1, type=1
+2018-09-06 15:23:56,685 [INFO  IM] - <GroupAction.cpp>|<49>|<createGroup>,createGroup.1 create what, userCnt=2
+2018-09-06 15:23:56,744 [INFO  IM] - <GroupModel.cpp>|<78>|<createGroup>,reset msgId failed. groupId=1
+2018-09-06 15:23:56,826 [INFO  IM] - <GroupAction.cpp>|<69>|<createGroup>,createGroup.1 create what, userCnt=2, result:0
+2018-09-06 15:23:59,181 [INFO  IM] - <MessageContent.cpp>|<72>|<getMessage>,userId=1, peerId=1, msgId=0, msgCnt=10, count=0
+2018-09-06 15:24:02,988 [INFO  IM] - <MessageContent.cpp>|<234>|<sendMessage>,fromId=1, toId=1, type=17, msgId=1, sessionId=3
+2018-09-06 15:24:03,001 [INFO  IM] - <GroupAction.cpp>|<177>|<getGroupInfo>,userId=1, requestCount=1
+2018-09-06 15:24:03,013 [INFO  IM] - <GroupAction.cpp>|<334>|<getGroupPush>,groupId=1, count=2
+2018-09-06 15:24:03,024 [INFO  IM] - <MessageCounter.cpp>|<267>|<getDevicesToken>,req devices token.reqCnt=2, resCnt=0
+2018-09-06 15:24:03,339 [INFO  IM] - <GroupAction.cpp>|<177>|<getGroupInfo>,userId=2, requestCount=1
+2018-09-06 15:24:08,656 [INFO  IM] - <MessageCounter.cpp>|<80>|<clearUnreadMsgCounter>,userId=1, peerId=2, type=2
+2018-09-06 15:24:11,148 [INFO  IM] - <MessageContent.cpp>|<234>|<sendMessage>,fromId=2, toId=1, type=17, msgId=2, sessionId=4
+2018-09-06 15:24:11,160 [INFO  IM] - <GroupAction.cpp>|<177>|<getGroupInfo>,userId=2, requestCount=1
+2018-09-06 15:24:11,172 [INFO  IM] - <GroupAction.cpp>|<334>|<getGroupPush>,groupId=1, count=2
+2018-09-06 15:24:11,183 [INFO  IM] - <MessageCounter.cpp>|<267>|<getDevicesToken>,req devices token.reqCnt=2, resCnt=0
+2018-09-06 15:24:15,264 [INFO  IM] - <MessageCounter.cpp>|<80>|<clearUnreadMsgCounter>,userId=1, peerId=1, type=2

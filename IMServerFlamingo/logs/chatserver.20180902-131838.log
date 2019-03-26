@@ -1,0 +1,50 @@
+20180902 13:18:38 INFO  Init mysql success... - main.cpp:147
+20180902 13:18:38 INFO  Init UserManager success... - main.cpp:152
+20180902 13:18:38 INFO  chatserver initialization complete. - main.cpp:161
+20180902 13:18:45 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#1] from 120.236.177.19:12063 - tcpserver.cpp:74
+20180902 13:18:45 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x1D26910 fd=22 - tcpconnection.cpp:46
+20180902 13:18:45 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "111", "password": "111", "clienttype": 1, "status": 1}, datalength=68, packageBodySize=83 - ClientSession.cpp:127
+20180902 13:18:45 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 1,"username":"111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=1 - ClientSession.cpp:420
+20180902 13:18:45 INFO  get notify msg cache, userid: 1, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180902 13:18:45 INFO  get chat msg cache, userid: 1, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180902 13:18:45 INFO  Request from client: userid=1, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 13:18:45 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 268435455,"username":"hello", "nickname":"hello", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:541
+20180902 13:18:45 INFO  Request from client: userid=1, cmd=1010, seq=1, data={"groupid": 268435455}, datalength=22, packageBodySize=37 - ClientSession.cpp:127
+20180902 13:18:45 INFO  Response to client: userid=1, cmd=msg_type_getgroupmembers, data={"code": 0, "msg": "ok", "groupid": 268435455, "members":[{"userid": 1, "username":"111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype": 1, "status":1}]} - ClientSession.cpp:1000
+20180902 13:19:12 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#2] from 120.236.177.19:39183 - tcpserver.cpp:74
+20180902 13:19:12 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0x1D275D0 fd=23 - tcpconnection.cpp:46
+20180902 13:19:12 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "222", "nickname": "222", "password": "111"}, datalength=57, packageBodySize=72 - ClientSession.cpp:127
+20180902 13:19:12 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 0, "msg": "ok"} - ClientSession.cpp:347
+20180902 13:19:14 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180902 13:19:14 INFO  client disconnected: 120.236.177.19:39183 - IMServer.cpp:103
+20180902 13:19:14 INFO  current online user count: 1 - IMServer.cpp:108
+20180902 13:19:14 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#3] from 120.236.177.19:47135 - tcpserver.cpp:74
+20180902 13:19:14 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#3] at 0x1D281F0 fd=23 - tcpconnection.cpp:46
+20180902 13:19:14 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#2 - tcpserver.cpp:103
+20180902 13:19:14 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0x1D275D0 fd=23 state=kDisconnected - tcpconnection.cpp:52
+20180902 13:19:16 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#4] from 120.236.177.19:40207 - tcpserver.cpp:74
+20180902 13:19:16 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#4] at 0x1D275D0 fd=23 - tcpconnection.cpp:46
+20180902 13:19:16 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "222", "password": "111", "clienttype": 1, "status": 1}, datalength=68, packageBodySize=83 - ClientSession.cpp:127
+20180902 13:19:16 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 2,"username":"222", "nickname":"222", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=2 - ClientSession.cpp:420
+20180902 13:19:16 INFO  get notify msg cache, userid: 2, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180902 13:19:16 INFO  get chat msg cache, userid: 2, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180902 13:19:16 INFO  Request from client: userid=2, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 13:19:16 INFO  Response to client: userid=2, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:541
+20180902 13:19:29 INFO  Request from client: userid=2, cmd=1004, seq=1, data={"type": 1, "username": "111"}, datalength=30, packageBodySize=45 - ClientSession.cpp:127
+20180902 13:19:29 INFO  Response to client: userid = 2, cmd=msg_type_finduser, data={ "code": 0, "msg": "ok", "userinfo": [{"userid": 1, "username": "111", "nickname": "111", "facetype":0}] } - ClientSession.cpp:620
+20180902 13:19:30 INFO  Request from client: userid=2, cmd=1005, seq=2, data={"userid": 1, "type": 1}, datalength=24, packageBodySize=39 - ClientSession.cpp:127
+20180902 13:19:30 INFO  Response to client: userid = 1, cmd=msg_type_addfriend, data={"userid": 1, "type": 1} - ClientSession.cpp:738
+20180902 13:19:39 INFO  Request from client: userid=1, cmd=1005, seq=2, data={"userid": 2, "type": 3, "accept": 1}, datalength=37, packageBodySize=52 - ClientSession.cpp:127
+20180902 13:19:39 INFO  Response to client: userid=1, cmd=msg_type_addfriend, data={"userid": 2, "type": 3, "username": "222", "accept": 1} - ClientSession.cpp:710
+20180902 13:19:39 INFO  Response to client: userid = 2, cmd=msg_type_addfriend, data={"userid": 2, "type": 3, "accept": 1} - ClientSession.cpp:738
+20180902 13:19:39 INFO  Request from client: userid=1, cmd=1003, seq=3, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 13:19:39 INFO  Request from client: userid=2, cmd=1003, seq=3, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180902 13:19:39 INFO  Response to client: userid=2, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 1,"username":"111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":0, "status":0}]}]} - ClientSession.cpp:541
+20180902 13:19:39 INFO  Response to client: userid=1, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 2,"username":"222", "nickname":"222", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":0, "status":0},{"userid": 268435455,"username":"hello", "nickname":"hello", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:541
+20180902 13:19:39 INFO  Request from client: userid=1, cmd=1010, seq=4, data={"groupid": 268435455}, datalength=22, packageBodySize=37 - ClientSession.cpp:127
+20180902 13:19:39 INFO  Response to client: userid=1, cmd=msg_type_getgroupmembers, data={"code": 0, "msg": "ok", "groupid": 268435455, "members":[{"userid": 1, "username":"111", "nickname":"111", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype": 1, "status":1}]} - ClientSession.cpp:1000
+20180902 13:19:55 INFO  Request from client: userid=2, cmd=1100, seq=4, data={"msgType":1,"time":1535865594,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180902 13:20:18 INFO  Request from client: userid=2, cmd=1004, seq=5, data={"type": 2, "username": "268435455"}, datalength=36, packageBodySize=51 - ClientSession.cpp:127
+20180902 13:20:18 INFO  Response to client: userid = 2, cmd=msg_type_finduser, data={ "code": 0, "msg": "ok", "userinfo": [] } - ClientSession.cpp:620
+20180902 13:20:38 INFO  Request from client: userid=2, cmd=1004, seq=6, data={"type": 2, "username": "hello"}, datalength=32, packageBodySize=47 - ClientSession.cpp:127
+20180902 13:20:38 INFO  Response to client: userid = 2, cmd=msg_type_finduser, data={ "code": 0, "msg": "ok", "userinfo": [] } - ClientSession.cpp:620

@@ -1,0 +1,38 @@
+20180724 16:50:26 INFO  show databases - databasemysql.cpp:92
+20180724 16:50:27 INFO  CMysqlManager::_IsDBExist, find database(myim) - mysqlmanager.cpp:218
+20180724 16:50:27 INFO  desc t_user - databasemysql.cpp:92
+20180724 16:50:27 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180724 16:50:27 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180724 16:50:27 INFO  desc t_device - databasemysql.cpp:92
+20180724 16:50:27 INFO  Init mysql success... - main.cpp:149
+20180724 16:50:27 INFO  SELECT f_user_id, f_username, f_nickname, f_password,  f_facetype, f_customface, f_gender, f_birthday, f_signature, f_address, f_phonenumber, f_mail FROM t_user ORDER BY  f_user_id DESC - databasemysql.cpp:92
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 268435456, username: 268435456, password: , nickname: 华师篮球群, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 8, username: client02, password: client02, nickname: client02, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 7, username: client01, password: client01, nickname: client01, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 6, username: 13025263134, password: liyusheng, nickname: liyusheng, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 5, username: 13025263139, password: client05, nickname: client05, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 4, username: 13025263138, password: client04, nickname: client04, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 3, username: 13025263137, password: client03, nickname: client03, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 2, username: 13025263136, password: client02, nickname: client02, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  Here success111...... - UserManager.cpp:80
+20180724 16:50:27 INFO  userid: 1, username: 13025263135, password: client01, nickname: client01, signature:  - UserManager.cpp:87
+20180724 16:50:27 INFO  current base userid: 8, current base group id: 268435456 - UserManager.cpp:103
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 268435456 OR f_user_id2 = 268435456  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 8 OR f_user_id2 = 8  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 7 OR f_user_id2 = 7  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 6 OR f_user_id2 = 6  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 5 OR f_user_id2 = 5  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 4 OR f_user_id2 = 4  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 3 OR f_user_id2 = 3  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 2 OR f_user_id2 = 2  - databasemysql.cpp:92
+20180724 16:50:27 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 1 OR f_user_id2 = 1  - databasemysql.cpp:92
+20180724 16:50:27 INFO  Init UserManager success... - main.cpp:156
+20180724 16:50:27 INFO  chatserver initialization complete. - main.cpp:164

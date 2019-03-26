@@ -1,0 +1,3 @@
+/home/ys/git/flamingoPro/CMakeFiles/mychatserver.dir
+/home/ys/git/flamingoPro/CMakeFiles/myfileserver.dir
+/home/ys/git/flamingoPro/CMakeFiles/myimgserver.dir

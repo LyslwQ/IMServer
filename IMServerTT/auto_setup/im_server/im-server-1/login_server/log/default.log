@@ -1,0 +1,79 @@
+2018-09-06 15:02:05,005 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8008
+2018-09-06 15:02:05,005 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8100
+2018-09-06 15:02:05,005 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8080
+2018-09-06 15:02:05,239 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=9 from 192.168.155.128:53016
+
+2018-09-06 15:02:05,239 [INFO  IM] - <login_server.cpp>|<34>|<msg_serv_callback>,msg_server come in
+2018-09-06 15:02:05,239 [INFO  IM] - <LoginConn.cpp>|<161>|<_HandleMsgServInfo>,MsgServInfo, ip_addr1=192.168.155.128, ip_addr2=192.168.155.128, port=8000, max_conn_cnt=100000, cur_conn_cnt=0, hostname: localhost.localdomain. 
+2018-09-06 15:02:36,519 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5068
+
+2018-09-06 15:02:36,520 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:02:36,658 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:03:29,489 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=0, total_cnt=0 
+2018-09-06 15:03:50,057 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5085
+
+2018-09-06 15:03:50,058 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:03:50,116 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:05:29,036 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=0, total_cnt=0 
+2018-09-06 15:05:58,463 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5106
+
+2018-09-06 15:05:58,464 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:05:58,543 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:06:12,218 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5112
+
+2018-09-06 15:06:12,218 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:06:12,297 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=2, total_cnt=2 
+2018-09-06 15:07:23,023 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:07:26,274 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5129
+
+2018-09-06 15:07:26,275 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:07:26,354 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=2, total_cnt=2 
+2018-09-06 15:07:26,356 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:07:47,415 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=0, total_cnt=0 
+2018-09-06 15:07:48,249 [INFO  IM] - <LoginConn.cpp>|<68>|<Close>,onclose from MsgServer: localhost.localdomain:8000 
+2018-09-06 15:07:57,190 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=9 from 192.168.155.55:5138
+
+2018-09-06 15:07:57,201 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:08:27,296 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8008
+2018-09-06 15:08:27,296 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8100
+2018-09-06 15:08:27,296 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8080
+2018-09-06 15:08:27,564 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=9 from 192.168.155.128:53110
+
+2018-09-06 15:08:27,564 [INFO  IM] - <login_server.cpp>|<34>|<msg_serv_callback>,msg_server come in
+2018-09-06 15:08:27,564 [INFO  IM] - <LoginConn.cpp>|<161>|<_HandleMsgServInfo>,MsgServInfo, ip_addr1=192.168.155.128, ip_addr2=192.168.155.128, port=8000, max_conn_cnt=100000, cur_conn_cnt=0, hostname: localhost.localdomain. 
+2018-09-06 15:08:37,258 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5143
+
+2018-09-06 15:08:37,259 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:11:17,958 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8008
+2018-09-06 15:11:17,958 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8100
+2018-09-06 15:11:17,959 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8080
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=9 from 192.168.155.128:53380
+
+2018-09-06 15:11:18,143 [INFO  IM] - <login_server.cpp>|<34>|<msg_serv_callback>,msg_server come in
+2018-09-06 15:11:18,143 [INFO  IM] - <LoginConn.cpp>|<161>|<_HandleMsgServInfo>,MsgServInfo, ip_addr1=192.168.155.128, ip_addr2=192.168.155.128, port=8000, max_conn_cnt=100000, cur_conn_cnt=0, hostname: localhost.localdomain. 
+2018-09-06 15:11:43,106 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5181
+
+2018-09-06 15:11:43,106 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:17:58,682 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5347
+
+2018-09-06 15:17:58,682 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:17:58,715 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:18:07,774 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5350
+
+2018-09-06 15:18:07,774 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:18:07,840 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=2, total_cnt=2 
+2018-09-06 15:18:07,841 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:18:35,576 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5354
+
+2018-09-06 15:18:35,576 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:18:35,612 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=2, total_cnt=2 
+2018-09-06 15:19:01,213 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:21:50,745 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=0, total_cnt=0 
+2018-09-06 15:21:56,379 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5391
+
+2018-09-06 15:21:56,390 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:21:56,435 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=1, total_cnt=1 
+2018-09-06 15:22:31,985 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.155.55:5398
+
+2018-09-06 15:22:31,985 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2018-09-06 15:22:32,094 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,localhost.localdomain:8000, cur_cnt=2, total_cnt=2 

@@ -1,0 +1,9 @@
+20180903 10:07:18 INFO  imgserver initialization complete. - main.cpp:146
+20180903 10:11:23 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:40109#1] from 120.236.177.88:2311 - tcpserver.cpp:74
+20180903 10:11:23 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYImgAndFileServer:0.0.0.0:40109#1] at 0x83B920 fd=27 - tcpconnection.cpp:46
+20180903 10:11:23 INFO  Request from client: cmd=1, seq=0, filemd5=f3a4c9afd88d386ee090f5dd6ee8749d, md5length=32, offset=0, filesize=2836, filedata length=2836, header.packagesize:2892, client: 120.236.177.88:2311 - FileSession.cpp:121
+20180903 10:11:23 INFO  Response to client: cmd=msg_type_upload_resp, errorcode: 2, filemd5: f3a4c9afd88d386ee090f5dd6ee8749d, offset: 2836, filesize: 2836, upload percent: 100%, client:120.236.177.88:2311 - FileSession.cpp:245
+20180903 10:11:23 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:40109#2] from 120.236.177.88:38180 - tcpserver.cpp:74
+20180903 10:11:23 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYImgAndFileServer:0.0.0.0:40109#2] at 0x83BC40 fd=28 - tcpconnection.cpp:46
+20180903 10:11:23 INFO  Request from client: cmd=3, seq=0, filemd5=f3a4c9afd88d386ee090f5dd6ee8749d, md5length=32, offset=0, filesize=0, filedata length=0, header.packagesize:52, client: 120.236.177.88:38180 - FileSession.cpp:121
+20180903 10:11:23 INFO  Response to client: cmd=msg_type_download_resp, errorcode: 2, filemd5: f3a4c9afd88d386ee090f5dd6ee8749d, offset: 0, filesize: 2836, filedataLength: 2836, download percent: 0%, client:120.236.177.88:38180 - FileSession.cpp:335

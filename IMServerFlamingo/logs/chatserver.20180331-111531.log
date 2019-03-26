@@ -1,0 +1,38 @@
+20180331 11:15:32 INFO  show databases - databasemysql.cpp:92
+20180331 11:15:32 INFO  CMysqlManager::_IsDBExist, no database(myim) - mysqlmanager.cpp:230
+20180331 11:15:32 INFO  CMysqlManager::_CreateDB, create database myim success - mysqlmanager.cpp:251
+20180331 11:15:32 INFO  desc t_user - databasemysql.cpp:92
+20180331 11:15:32 INFO  CDatabaseMysql::Query, mysql is abnormal, errno : 1146 - databasemysql.cpp:97
+20180331 11:15:32 ERROR SQL: desc t_user - databasemysql.cpp:116
+20180331 11:15:32 ERROR query ERROR: Table 'myim.t_user' doesn't exist - databasemysql.cpp:117
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, no tablet_user, begin create..... - mysqlmanager.cpp:283
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, t_user, end create..... - mysqlmanager.cpp:286
+20180331 11:15:32 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180331 11:15:32 INFO  CDatabaseMysql::Query, mysql is abnormal, errno : 1146 - databasemysql.cpp:97
+20180331 11:15:32 ERROR SQL: desc t_user_relationship - databasemysql.cpp:116
+20180331 11:15:32 ERROR query ERROR: Table 'myim.t_user_relationship' doesn't exist - databasemysql.cpp:117
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, no tablet_user_relationship, begin create..... - mysqlmanager.cpp:283
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, t_user_relationship, end create..... - mysqlmanager.cpp:286
+20180331 11:15:32 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180331 11:15:32 INFO  CDatabaseMysql::Query, mysql is abnormal, errno : 1146 - databasemysql.cpp:97
+20180331 11:15:32 ERROR SQL: desc t_chatmsg - databasemysql.cpp:116
+20180331 11:15:32 ERROR query ERROR: Table 'myim.t_chatmsg' doesn't exist - databasemysql.cpp:117
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, no tablet_chatmsg, begin create..... - mysqlmanager.cpp:283
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, t_chatmsg, end create..... - mysqlmanager.cpp:286
+20180331 11:15:32 INFO  desc t_device - databasemysql.cpp:92
+20180331 11:15:32 INFO  CDatabaseMysql::Query, mysql is abnormal, errno : 1146 - databasemysql.cpp:97
+20180331 11:15:32 ERROR SQL: desc t_device - databasemysql.cpp:116
+20180331 11:15:32 ERROR query ERROR: Table 'myim.t_device' doesn't exist - databasemysql.cpp:117
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, no tablet_device, begin create..... - mysqlmanager.cpp:283
+20180331 11:15:32 INFO  CMysqlManager::_CheckTable, t_device, end create..... - mysqlmanager.cpp:286
+20180331 11:15:32 INFO  SELECT f_user_id, f_username, f_nickname, f_password,  f_facetype, f_customface, f_gender, f_birthday, f_signature, f_address, f_phonenumber, f_mail FROM t_user ORDER BY  f_user_id DESC - databasemysql.cpp:92
+20180331 11:15:32 INFO  current base userid: 0, current base group id: 268435455 - UserManager.cpp:103
+20180331 11:15:32 INFO  chatserver initialization complete. - main.cpp:161
+20180331 11:18:55 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#1] from 192.168.187.1:195 - tcpserver.cpp:74
+20180331 11:18:55 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#1] at 0x226D7F0 fd=21 - tcpconnection.cpp:46
+20180331 11:18:55 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "13025263136", "nickname": "flaClient01", "password": "flamingo123"}, datalength=81, packageBodySize=96 - ClientSession.cpp:115
+20180331 11:18:55 INFO  CDatabaseMysql::Query, mysql is abnormal, errno : 1062 - databasemysql.cpp:176
+20180331 11:18:55 ERROR SQL: INSERT INTO t_user(f_user_id, f_username, f_nickname, f_password, f_register_time) VALUES(1, '13025263136', 'flaClient01', 'flamingo123', NOW()) - databasemysql.cpp:195
+20180331 11:18:55 ERROR query ERROR: Duplicate entry '1' for key 'PRIMARY' - databasemysql.cpp:196
+20180331 11:18:55 WARN  insert user error, sql=INSERT INTO t_user(f_user_id, f_username, f_nickname, f_password, f_register_time) VALUES(1, '13025263136', 'flaClient01', 'flamingo123', NOW()) - UserManager.cpp:127
+20180331 11:18:55 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 100, "msg": "register failed"} - ClientSession.cpp:339

@@ -1,0 +1,5 @@
+20180917 23:41:05 INFO  TcpServer::newConnection [ZYL-MYImgAndFileServer] - new connection [ZYL-MYImgAndFileServer:0.0.0.0:13698#26] from 180.100.206.195:20210 - tcpserver.cpp:74
+20180917 23:41:05 ERROR Illegal package heade size, close TcpConnection, client: 180.100.206.195:20210 - FileSession.cpp:54
+20180917 23:41:05 INFO  client disconnected: 180.100.206.195:20210 - FileServer.cpp:56
+20180917 23:41:05 INFO  TcpServer::removeConnectionInLoop [ZYL-MYImgAndFileServer] - connection ZYL-MYImgAndFileServer:0.0.0.0:13698#26 - tcpserver.cpp:103
+20180917 23:41:05 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

@@ -1,0 +1,9 @@
+2018-08-30 13:32:34,238 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: unread, list size: 2
+2018-08-30 13:32:34,239 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: group_set, list size: 2
+2018-08-30 13:32:34,240 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: token, list size: 2
+2018-08-30 13:32:34,241 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: sync, list size: 2
+2018-08-30 13:32:34,242 [INFO  IM] - <CachePool.cpp>|<597>|<Init>,cache pool: group_member, list size: 2
+2018-08-30 13:32:34,319 [INFO  IM] - <DBPool.cpp>|<334>|<Init>,db pool: teamtalk_master, size: 2
+2018-08-30 13:32:34,321 [INFO  IM] - <DBPool.cpp>|<234>|<Init>,mysql_real_connect failed: Access denied for user 'test'@'localhost' (using password: YES)
+2018-08-30 13:32:34,322 [INFO  IM] - <DBPool.cpp>|<464>|<Init>,init db instance failed: teamtalk_slave
+2018-08-30 13:32:34,322 [INFO  IM] - <db_proxy_server.cpp>|<61>|<main>,DBManager init failed

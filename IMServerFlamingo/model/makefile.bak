@@ -1,0 +1,32 @@
+XX     = g++
+CFLAGS = -Wall -O -g -std=c++11
+LIB    = -lodb-mysql -lodb 
+TRAGET = main
+
+target :	
+#	odb -d mysql --generate-query --generate-schema person.hxx
+	
+	odb -d mysql  --generate-schema --schema-name Relationship --schema-format embedded \
+ 	--generate-query Relationship.hxx 
+	odb -d mysql --generate-schema --schema-name User --schema-format embedded \
+ 	--generate-query User.hxx
+	odb -d mysql --generate-schema --schema-name IMGroup --schema-format embedded \
+ 	--generate-query IMGroup.hxx
+	$(XX) $(CFLAGS) -o main Relationship-odb.cxx User-odb.cxx IMGroup-odb.cxx -DDATABASE_MYSQL  test.cpp Model.cpp Relationship.cpp  User.cpp IMGroup.cpp $(LIB)
+#	mysql --user=root --password=ubuntu123 --database=odb_test < person.sql
+	
+	
+#%.o : %.cpp 
+#	$(XX) $(CFLAGS) -c $< -o $@ 
+
+#SOURCES = $(wildcard *.cpp)
+#OBJS    = $(patsubst %.cpp, %.o, $SOURCES)
+
+#$(TARGET) : $(OBJS)
+#	$(XX) $(OBJS) -o $(TARGET)
+
+run :
+	./main 
+
+clean:
+	rm -fr *.o main

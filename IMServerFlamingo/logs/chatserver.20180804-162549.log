@@ -1,0 +1,64 @@
+20180804 16:25:49 INFO  show databases - databasemysql.cpp:92
+20180804 16:25:49 INFO  CMysqlManager::_IsDBExist, find database(myim) - mysqlmanager.cpp:218
+20180804 16:25:49 INFO  desc t_user - databasemysql.cpp:92
+20180804 16:25:49 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180804 16:25:49 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180804 16:25:49 INFO  desc t_device - databasemysql.cpp:92
+20180804 16:25:49 INFO  Init mysql success... - main.cpp:149
+20180804 16:25:49 INFO  SELECT f_user_id, f_username, f_nickname, f_password,  f_facetype, f_customface, f_gender, f_birthday, f_signature, f_address, f_phonenumber, f_mail FROM t_user ORDER BY  f_user_id DESC - databasemysql.cpp:92
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 268435456, username: 268435456, password: , nickname: 华师篮球群, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 8, username: client02, password: client02, nickname: client02, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 7, username: client01, password: client01, nickname: client01, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 6, username: 13025263134, password: liyusheng, nickname: liyusheng, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 5, username: 13025263139, password: client05, nickname: client05, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 4, username: 13025263138, password: client04, nickname: client04, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 3, username: 13025263137, password: client03, nickname: client03, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 2, username: 13025263136, password: client02, nickname: client02, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  Here success111...... - UserManager.cpp:80
+20180804 16:25:49 INFO  userid: 1, username: 13025263135, password: client01, nickname: client01, signature:  - UserManager.cpp:87
+20180804 16:25:49 INFO  current base userid: 8, current base group id: 268435456 - UserManager.cpp:103
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 268435456 OR f_user_id2 = 268435456  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 8 OR f_user_id2 = 8  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 7 OR f_user_id2 = 7  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 6 OR f_user_id2 = 6  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 5 OR f_user_id2 = 5  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 4 OR f_user_id2 = 4  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 3 OR f_user_id2 = 3  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 2 OR f_user_id2 = 2  - databasemysql.cpp:92
+20180804 16:25:49 INFO  SELECT f_user_id1, f_user_id2 FROM t_user_relationship WHERE f_user_id1 = 1 OR f_user_id2 = 1  - databasemysql.cpp:92
+20180804 16:25:49 INFO  Init UserManager success... - main.cpp:156
+20180804 16:25:49 INFO  chatserver initialization complete. - main.cpp:164
+20180804 16:26:11 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#1] from 192.168.43.13:10187 - tcpserver.cpp:74
+20180804 16:26:11 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#1] at 0xA8D9C0 fd=21 - tcpconnection.cpp:46
+20180804 16:26:14 INFO  Session is invalid, userid=0 - IMServer.cpp:86
+20180804 16:26:14 INFO  client disconnected: 192.168.43.13:10187 - IMServer.cpp:94
+20180804 16:26:14 INFO  current online user count: 0 - IMServer.cpp:99
+20180804 16:26:14 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#1 - tcpserver.cpp:103
+20180804 16:26:14 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#1] at 0xA8D9C0 fd=21 state=kDisconnected - tcpconnection.cpp:52
+20180804 16:26:14 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180804 16:26:31 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#2] from 192.168.43.13:10443 - tcpserver.cpp:74
+20180804 16:26:31 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#2] at 0xA8D9C0 fd=21 - tcpconnection.cpp:46
+20180804 16:26:34 INFO  Session is invalid, userid=0 - IMServer.cpp:86
+20180804 16:26:34 INFO  client disconnected: 192.168.43.13:10443 - IMServer.cpp:94
+20180804 16:26:34 INFO  current online user count: 0 - IMServer.cpp:99
+20180804 16:26:34 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#2 - tcpserver.cpp:103
+20180804 16:26:34 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#2] at 0xA8D9C0 fd=21 state=kDisconnected - tcpconnection.cpp:52
+20180804 16:26:34 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180804 16:27:25 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#3] from 192.168.43.13:10955 - tcpserver.cpp:74
+20180804 16:27:25 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#3] at 0xA8D9C0 fd=21 - tcpconnection.cpp:46
+20180804 16:27:25 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "client02", "password": "client02", "clienttype": 1, "status": 1}, datalength=78, packageBodySize=93 - ClientSession.cpp:117
+20180804 16:27:25 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 8,"username":"client02", "nickname":"client02", "facetype": 0, "customface":"", "gender":0, "birthday":19900101, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=8 - ClientSession.cpp:415
+20180804 16:27:25 INFO  get notify msg cache, userid: 8, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:49
+20180804 16:27:25 INFO  get chat msg cache, userid: 8, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:81
+20180804 16:27:25 INFO  Request from client: userid=8, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:117
+20180804 16:27:25 INFO  Response to client: userid=8, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 7,"username":"client01", "nickname":"client01", "facetype": 0, "customface":"", "gender":0, "birthday":19900101, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":0, "status":0}]}]} - ClientSession.cpp:515
+20180804 16:27:48 INFO  Request from client: userid=8, cmd=1100, seq=1, data={"msgType":1,"time":1533371265,"clientType":1,"content":[{"shake":1}]}, datalength=70, packageBodySize=89 - ClientSession.cpp:117
+20180804 16:27:48 INFO  append chat msg to cache, userid: 7, m_listChatMsgCache.size() : 1, cache length : 93 - MsgCacheManager.cpp:59

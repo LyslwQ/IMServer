@@ -1,0 +1,33 @@
+20180331 10:57:29 INFO  show databases - databasemysql.cpp:92
+20180331 10:57:29 INFO  CMysqlManager::_IsDBExist, find database(myim) - mysqlmanager.cpp:218
+20180331 10:57:29 INFO  desc t_user - databasemysql.cpp:92
+20180331 10:57:29 INFO  desc t_user_relationship - databasemysql.cpp:92
+20180331 10:57:29 INFO  desc t_chatmsg - databasemysql.cpp:92
+20180331 10:57:29 INFO  desc t_device - databasemysql.cpp:92
+20180331 10:57:29 INFO  SELECT f_user_id, f_username, f_nickname, f_password,  f_facetype, f_customface, f_gender, f_birthday, f_signature, f_address, f_phonenumber, f_mail FROM t_user ORDER BY  f_user_id DESC - databasemysql.cpp:92
+20180331 10:57:29 INFO  current base userid: 0, current base group id: 268435455 - UserManager.cpp:103
+20180331 10:57:29 INFO  chatserver initialization complete. - main.cpp:161
+20180331 11:05:34 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#1] from 192.168.187.1:60866 - tcpserver.cpp:74
+20180331 11:05:34 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#1] at 0x1CE78A0 fd=21 - tcpconnection.cpp:46
+20180331 11:05:34 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "13025263136", "password": "flamingo123", "clienttype": 1, "status": 1}, datalength=84, packageBodySize=99 - ClientSession.cpp:115
+20180331 11:05:34 INFO  Response to client: cmd=msg_type_login, data={"code": 102, "msg": "not registered"}, userid=0 - ClientSession.cpp:413
+20180331 11:05:34 INFO  get notify msg cache, userid: 0, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:49
+20180331 11:05:34 INFO  get chat msg cache, userid: 0, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:81
+20180331 11:05:40 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180331 11:05:40 INFO  client disconnected: 192.168.187.1:60866 - IMServer.cpp:91
+20180331 11:05:40 INFO  current online user count: 0 - IMServer.cpp:96
+20180331 11:05:40 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#1 - tcpserver.cpp:103
+20180331 11:05:40 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#1] at 0x1CE78A0 fd=21 state=kDisconnected - tcpconnection.cpp:52
+20180331 11:05:40 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180331 11:09:24 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:8270#2] from 192.168.187.1:62658 - tcpserver.cpp:74
+20180331 11:09:24 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:8270#2] at 0x1CE78A0 fd=21 - tcpconnection.cpp:46
+20180331 11:09:24 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "13025263137", "password": "flamingo123", "clienttype": 1, "status": 1}, datalength=84, packageBodySize=99 - ClientSession.cpp:115
+20180331 11:09:24 INFO  Response to client: cmd=msg_type_login, data={"code": 102, "msg": "not registered"}, userid=0 - ClientSession.cpp:413
+20180331 11:09:24 INFO  get notify msg cache, userid: 0, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:49
+20180331 11:09:24 INFO  get chat msg cache, userid: 0, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:81
+20180331 11:11:48 INFO  Session is invalid, userid=0 - IMServer.cpp:83
+20180331 11:11:48 INFO  client disconnected: 192.168.187.1:62658 - IMServer.cpp:91
+20180331 11:11:48 INFO  current online user count: 0 - IMServer.cpp:96
+20180331 11:11:48 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:8270#2 - tcpserver.cpp:103
+20180331 11:11:48 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:8270#2] at 0x1CE78A0 fd=21 state=kDisconnected - tcpconnection.cpp:52
+20180331 11:11:48 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

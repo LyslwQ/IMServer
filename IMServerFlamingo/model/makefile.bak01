@@ -1,0 +1,36 @@
+XX     = g++
+CFLAGS = -Wall -O -g -std=c++11
+LIB    = -lodb-mysql -lodb 
+TRAGET = main
+SRC    = $(shell find ./ -name "*.cpp" "*.cxx") 
+OBJ    = $(SRC:%.cpp = %.o)
+	
+target :*.o
+	 $(XX) $(CFLAGS) -o $(TRAGET) $< $(LIB)
+
+*-odb.ixx:*.hxx
+	 odb -d mysql  --generate-schema --schema-name $<:.hxx "" --schema-format embedded \
+        --generate-query $<
+
+*.o:*.cpp *.cxx
+	 $(XX) $(CFLAGS) -c $^ -o $@ $(LIB)
+
+# $(filter %.o,$(files))
+	
+	
+ 
+#	$(XX) $(CFLAGS) -c $< -o $@ 
+
+#SOURCES = $(wildcard *.cpp)
+#OBJS    = $(patsubst %.cpp, %.o, $SOURCES)
+
+#$(TARGET) : $(OBJS)
+#	$(XX) $(OBJS) -o $(TARGET)
+
+.PYTHON:run
+run :
+	./main 
+
+.PYTHON:clean
+clean:
+	rm -fr *.o *-odb.cxx *-odb.hxx *-odb.ixx main

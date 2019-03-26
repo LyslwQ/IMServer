@@ -1,0 +1,143 @@
+20180828 22:23:52 INFO  Init mysql success... - main.cpp:147
+20180828 22:23:52 INFO  Init UserManager success... - main.cpp:152
+20180828 22:23:52 INFO  chatserver initialization complete. - main.cpp:161
+20180828 22:24:02 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#1] from 183.236.19.211:13404 - tcpserver.cpp:74
+20180828 22:24:02 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x176B6E0 fd=22 - tcpconnection.cpp:46
+20180828 22:24:02 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "33333333333", "password": "11111111111", "clienttype": 1, "status": 1}, datalength=84, packageBodySize=99 - ClientSession.cpp:127
+20180828 22:24:02 INFO  Response to client: cmd=msg_type_login, data={"code": 103, "msg": "incorrect password"}, userid=0 - ClientSession.cpp:420
+20180828 22:24:02 INFO  get notify msg cache, userid: 0, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180828 22:24:02 INFO  get chat msg cache, userid: 0, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180828 22:24:29 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180828 22:24:29 INFO  client disconnected: 183.236.19.211:13404 - IMServer.cpp:103
+20180828 22:24:29 INFO  current online user count: 0 - IMServer.cpp:108
+20180828 22:24:29 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#2] from 183.236.19.211:53271 - tcpserver.cpp:74
+20180828 22:24:29 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#2] at 0x176C890 fd=22 - tcpconnection.cpp:46
+20180828 22:24:29 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#1 - tcpserver.cpp:103
+20180828 22:24:29 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#1] at 0x176B6E0 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180828 22:24:34 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#3] from 183.236.19.211:2313 - tcpserver.cpp:74
+20180828 22:24:34 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#3] at 0x176B6E0 fd=22 - tcpconnection.cpp:46
+20180828 22:24:34 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "66666666666", "nickname": "client9", "password": "123"}, datalength=69, packageBodySize=84 - ClientSession.cpp:127
+20180828 22:24:34 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 0, "msg": "ok"} - ClientSession.cpp:347
+20180828 22:24:39 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180828 22:24:39 INFO  client disconnected: 183.236.19.211:2313 - IMServer.cpp:103
+20180828 22:24:39 INFO  current online user count: 1 - IMServer.cpp:108
+20180828 22:24:39 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#3 - tcpserver.cpp:103
+20180828 22:24:39 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#3] at 0x176B6E0 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180828 22:24:39 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180828 22:24:39 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#4] from 183.236.19.211:3849 - tcpserver.cpp:74
+20180828 22:24:39 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#4] at 0x176B6E0 fd=22 - tcpconnection.cpp:46
+20180828 22:24:39 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "66666666666", "password": "123", "clienttype": 1, "status": 1}, datalength=76, packageBodySize=91 - ClientSession.cpp:127
+20180828 22:24:39 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 6,"username":"66666666666", "nickname":"client9", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=6 - ClientSession.cpp:420
+20180828 22:24:39 INFO  get notify msg cache, userid: 6, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180828 22:24:39 INFO  get chat msg cache, userid: 6, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180828 22:24:39 INFO  Request from client: userid=6, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:24:39 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:520
+20180828 22:25:10 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#5] from 183.236.19.211:33620 - tcpserver.cpp:74
+20180828 22:25:10 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#5] at 0x176C5C0 fd=23 - tcpconnection.cpp:46
+20180828 22:25:10 INFO  Request from client: userid=0, cmd=1001, seq=0, data={"username": "55555555555", "nickname": "cliemt5", "password": "123"}, datalength=69, packageBodySize=84 - ClientSession.cpp:127
+20180828 22:25:10 INFO  Response to client: cmd=msg_type_register, userid=0, data={"code": 0, "msg": "ok"} - ClientSession.cpp:347
+20180828 22:25:12 INFO  Session is invalid, userid=0 - IMServer.cpp:95
+20180828 22:25:12 INFO  client disconnected: 183.236.19.211:33620 - IMServer.cpp:103
+20180828 22:25:12 INFO  current online user count: 2 - IMServer.cpp:108
+20180828 22:25:12 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#5 - tcpserver.cpp:103
+20180828 22:25:12 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#5] at 0x176C5C0 fd=23 state=kDisconnected - tcpconnection.cpp:52
+20180828 22:25:12 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180828 22:25:12 INFO  TcpServer::newConnection [ZYL-MYIMSERVER] - new connection [ZYL-MYIMSERVER:0.0.0.0:52822#6] from 183.236.19.211:13065 - tcpserver.cpp:74
+20180828 22:25:12 DEBUG TcpConnection TcpConnection::ctor[ZYL-MYIMSERVER:0.0.0.0:52822#6] at 0x176C5C0 fd=23 - tcpconnection.cpp:46
+20180828 22:25:12 INFO  Request from client: userid=0, cmd=1002, seq=0, data={"username": "55555555555", "password": "123", "clienttype": 1, "status": 1}, datalength=76, packageBodySize=91 - ClientSession.cpp:127
+20180828 22:25:12 INFO  Response to client: cmd=msg_type_login, data={"code": 0, "msg": "ok", "userid": 7,"username":"55555555555", "nickname":"cliemt5", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":""}, userid=7 - ClientSession.cpp:420
+20180828 22:25:12 INFO  get notify msg cache, userid: 7, m_mapNotifyMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:48
+20180828 22:25:12 INFO  get chat msg cache, userid: 7, m_listChatMsgCache.size(): 0, cached size: 0 - MsgCacheManager.cpp:80
+20180828 22:25:13 INFO  Request from client: userid=7, cmd=1003, seq=0, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:25:13 INFO  Response to client: userid=7, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : []}]} - ClientSession.cpp:520
+20180828 22:25:28 INFO  Request from client: userid=6, cmd=1004, seq=1, data={"type": 1, "username": "55555555555"}, datalength=38, packageBodySize=53 - ClientSession.cpp:127
+20180828 22:25:28 INFO  Response to client: userid = 6, cmd=msg_type_finduser, data={ "code": 0, "msg": "ok", "userinfo": [{"userid": 7, "username": "55555555555", "nickname": "cliemt5", "facetype":0}] } - ClientSession.cpp:599
+20180828 22:25:30 INFO  Request from client: userid=6, cmd=1005, seq=2, data={"userid": 7, "type": 1}, datalength=24, packageBodySize=39 - ClientSession.cpp:127
+20180828 22:25:30 INFO  Response to client: userid = 7, cmd=msg_type_addfriend, data={"userid": 7, "type": 1} - ClientSession.cpp:717
+20180828 22:25:37 INFO  Request from client: userid=7, cmd=1005, seq=1, data={"userid": 6, "type": 3, "accept": 1}, datalength=37, packageBodySize=52 - ClientSession.cpp:127
+20180828 22:25:37 INFO  Response to client: userid=7, cmd=msg_type_addfriend, data={"userid": 6, "type": 3, "username": "66666666666", "accept": 1} - ClientSession.cpp:689
+20180828 22:25:37 INFO  Response to client: userid = 6, cmd=msg_type_addfriend, data={"userid": 6, "type": 3, "accept": 1} - ClientSession.cpp:717
+20180828 22:25:37 INFO  Request from client: userid=7, cmd=1003, seq=2, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:25:37 INFO  Response to client: userid=7, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 6,"username":"66666666666", "nickname":"client9", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:520
+20180828 22:25:37 INFO  Request from client: userid=6, cmd=1003, seq=3, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:25:37 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 7,"username":"55555555555", "nickname":"cliemt5", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:520
+20180828 22:25:43 INFO  Request from client: userid=6, cmd=1100, seq=4, data={"msgType":1,"time":1535466343,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"3"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:25:48 INFO  Request from client: userid=6, cmd=1100, seq=5, data={"msgType":1,"time":1535466347,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:25:51 INFO  Request from client: userid=6, cmd=1100, seq=6, data={"msgType":1,"time":1535466351,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:25:54 INFO  Request from client: userid=6, cmd=1100, seq=7, data={"msgType":1,"time":1535466354,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:01 INFO  Request from client: userid=6, cmd=1100, seq=8, data={"msgType":1,"time":1535466361,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:03 INFO  Request from client: userid=6, cmd=1100, seq=9, data={"msgType":1,"time":1535466363,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:09 INFO  Request from client: userid=6, cmd=1100, seq=10, data={"msgType":1,"time":1535466368,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:10 INFO  Request from client: userid=6, cmd=1100, seq=11, data={"msgType":1,"time":1535466370,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:12 INFO  Request from client: userid=6, cmd=1100, seq=12, data={"msgType":1,"time":1535466371,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:13 INFO  Request from client: userid=6, cmd=1100, seq=13, data={"msgType":1,"time":1535466373,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:14 INFO  Request from client: userid=6, cmd=1100, seq=14, data={"msgType":1,"time":1535466374,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:15 INFO  Request from client: userid=6, cmd=1100, seq=15, data={"msgType":1,"time":1535466375,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:24 INFO  Request from client: userid=7, cmd=1100, seq=3, data={"msgType":1,"time":1535466384,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:27 INFO  Request from client: userid=7, cmd=1100, seq=4, data={"msgType":1,"time":1535466386,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:28 INFO  Request from client: userid=7, cmd=1100, seq=5, data={"msgType":1,"time":1535466388,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:29 INFO  Request from client: userid=7, cmd=1100, seq=6, data={"msgType":1,"time":1535466389,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:30 INFO  Request from client: userid=7, cmd=1100, seq=7, data={"msgType":1,"time":1535466390,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:32 INFO  Request from client: userid=7, cmd=1100, seq=8, data={"msgType":1,"time":1535466392,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:33 INFO  Request from client: userid=7, cmd=1100, seq=9, data={"msgType":1,"time":1535466393,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:34 INFO  Request from client: userid=7, cmd=1100, seq=10, data={"msgType":1,"time":1535466394,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:35 INFO  Request from client: userid=7, cmd=1100, seq=11, data={"msgType":1,"time":1535466395,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:35 INFO  Request from client: userid=7, cmd=1100, seq=12, data={"msgType":1,"time":1535466395,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:36 INFO  Request from client: userid=7, cmd=1100, seq=13, data={"msgType":1,"time":1535466396,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:36 INFO  Request from client: userid=7, cmd=1100, seq=14, data={"msgType":1,"time":1535466396,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:37 INFO  Request from client: userid=7, cmd=1100, seq=15, data={"msgType":1,"time":1535466396,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:26:37 INFO  Request from client: userid=7, cmd=1100, seq=16, data={"msgType":1,"time":1535466397,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"1"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:27:04 INFO  Request from client: userid=7, cmd=1100, seq=17, data={"msgType":1,"time":1535466424,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333335555555555555555555555555555555555555555555555wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'''''''''''''''''''''''''''']]]]]]]]]]]]]]]]]]]]]]===============-------------------------------------------------------------------"}]}, datalength=558, packageBodySize=578 - ClientSession.cpp:127
+20180828 22:27:32 INFO  Request from client: userid=7, cmd=1100, seq=18, data={"msgType":1,"time":1535466451,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333335555555555555555555555555555555555555555555555wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'''''''''''''''''''''''''''']]]]]]]]]]]]]]]]]]]]]]===============-------------------------------------------------------------------ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccddddddddddddd"}]}, datalength=667, packageBodySize=687 - ClientSession.cpp:127
+20180828 22:28:05 INFO  Request from client: userid=7, cmd=1003, seq=19, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:28:05 INFO  Response to client: userid=7, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 6,"username":"66666666666", "nickname":"client9", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:520
+20180828 22:28:20 INFO  Request from client: userid=7, cmd=1100, seq=20, data={"msgType":1,"time":1535466500,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"wwwwwwwwwwwwwwwwwwwwwwwwwwwww"}]}, datalength=137, packageBodySize=157 - ClientSession.cpp:127
+20180828 22:28:22 INFO  Request from client: userid=7, cmd=1100, seq=21, data={"msgType":1,"time":1535466502,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:23 INFO  Request from client: userid=7, cmd=1100, seq=22, data={"msgType":1,"time":1535466503,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:24 INFO  Request from client: userid=7, cmd=1100, seq=23, data={"msgType":1,"time":1535466504,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:26 INFO  Request from client: userid=7, cmd=1100, seq=24, data={"msgType":1,"time":1535466505,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:27 INFO  Request from client: userid=7, cmd=1100, seq=25, data={"msgType":1,"time":1535466507,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"www"}]}, datalength=111, packageBodySize=130 - ClientSession.cpp:127
+20180828 22:28:27 INFO  Request from client: userid=7, cmd=1100, seq=26, data={"msgType":1,"time":1535466507,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:28 INFO  Request from client: userid=7, cmd=1100, seq=27, data={"msgType":1,"time":1535466507,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:28 INFO  Request from client: userid=7, cmd=1100, seq=28, data={"msgType":1,"time":1535466508,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:28 INFO  Request from client: userid=7, cmd=1100, seq=29, data={"msgType":1,"time":1535466508,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:28 INFO  Request from client: userid=7, cmd=1100, seq=30, data={"msgType":1,"time":1535466508,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:28 INFO  Request from client: userid=7, cmd=1100, seq=31, data={"msgType":1,"time":1535466508,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:34 INFO  Request from client: userid=7, cmd=1100, seq=32, data={"msgType":1,"time":1535466514,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:36 INFO  Request from client: userid=7, cmd=1100, seq=33, data={"msgType":1,"time":1535466515,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:36 INFO  Request from client: userid=7, cmd=1100, seq=34, data={"msgType":1,"time":1535466516,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:37 INFO  Request from client: userid=7, cmd=1100, seq=35, data={"msgType":1,"time":1535466517,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:38 INFO  Request from client: userid=7, cmd=1100, seq=36, data={"msgType":1,"time":1535466518,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:39 INFO  Request from client: userid=7, cmd=1100, seq=37, data={"msgType":1,"time":1535466519,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:40 INFO  Request from client: userid=7, cmd=1100, seq=38, data={"msgType":1,"time":1535466519,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:40 INFO  Request from client: userid=7, cmd=1100, seq=39, data={"msgType":1,"time":1535466520,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:41 INFO  Request from client: userid=7, cmd=1100, seq=40, data={"msgType":1,"time":1535466521,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:41 INFO  Request from client: userid=7, cmd=1100, seq=41, data={"msgType":1,"time":1535466521,"clientType":1,"font":["微软雅黑",12,0,0,0,0],"content":[{"msgText":"w"}]}, datalength=109, packageBodySize=128 - ClientSession.cpp:127
+20180828 22:28:59 INFO  Request from client: userid=6, cmd=1009, seq=16, data={"groupname": "hello", "type": 0}, datalength=33, packageBodySize=48 - ClientSession.cpp:127
+20180828 22:28:59 INFO  Response to client: userid=6, cmd=msg_type_creategroup, data={"code": 0, "msg": "ok", "groupid":1, "groupname": "hello"} - ClientSession.cpp:921
+20180828 22:28:59 INFO  Response to client: userid=6, cmd=msg_type_addfriend, data={"userid": 1, "type": 3, "username": "hello", "accept": 1} - ClientSession.cpp:928
+20180828 22:28:59 INFO  Request from client: userid=6, cmd=1003, seq=17, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:28:59 INFO  Response to client: userid=6, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 7,"username":"55555555555", "nickname":"cliemt5", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:520
+20180828 22:29:33 INFO  Request from client: userid=7, cmd=1004, seq=42, data={"type": 2, "username": "hello"}, datalength=32, packageBodySize=47 - ClientSession.cpp:127
+20180828 22:29:33 INFO  Response to client: userid = 7, cmd=msg_type_finduser, data={ "code": 0, "msg": "ok", "userinfo": [] } - ClientSession.cpp:599
+20180828 22:29:43 INFO  Request from client: userid=7, cmd=1009, seq=43, data={"groupname": "fff", "type": 0}, datalength=31, packageBodySize=46 - ClientSession.cpp:127
+20180828 22:29:43 INFO  Response to client: userid=7, cmd=msg_type_creategroup, data={"code": 0, "msg": "ok", "groupid":2, "groupname": "fff"} - ClientSession.cpp:921
+20180828 22:29:43 INFO  Response to client: userid=7, cmd=msg_type_addfriend, data={"userid": 2, "type": 3, "username": "fff", "accept": 1} - ClientSession.cpp:928
+20180828 22:29:43 INFO  Request from client: userid=7, cmd=1003, seq=44, data=, datalength=0, packageBodySize=15 - ClientSession.cpp:127
+20180828 22:29:43 INFO  Response to client: userid=7, cmd=msg_type_getofriendlist, data={"code": 0, "msg": "ok", "userinfo":[{"teamindex": 0, "teamname" : "My Friends", "members" : [{"userid": 6,"username":"66666666666", "nickname":"client9", "facetype": 0, "customface":"", "gender":0, "birthday":0, "signature":"", "address": "", "phonenumber": "", "mail":"", "clienttype":1, "status":1}]}]} - ClientSession.cpp:520
+20180828 22:29:55 INFO  Request from client: userid=7, cmd=1004, seq=45, data={"type": 2, "username": "2"}, datalength=28, packageBodySize=43 - ClientSession.cpp:127
+20180828 22:29:55 INFO  Response to client: userid = 7, cmd=msg_type_finduser, data={ "code": 0, "msg": "ok", "userinfo": [] } - ClientSession.cpp:599
+20180828 22:30:12 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:52822#6] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180828 22:30:12 INFO  Send to client: userid=6, cmd=msg_type_userstatuschange, data={"type": 2, "onlinestatus": 0} - ClientSession.cpp:1016
+20180828 22:30:12 INFO  SendUserStatusChangeMsg to user(userid=6): user go offline, offline userid = 7 - IMServer.cpp:88
+20180828 22:30:12 INFO  client disconnected: 183.236.19.211:13065 - IMServer.cpp:103
+20180828 22:30:12 INFO  current online user count: 2 - IMServer.cpp:108
+20180828 22:30:12 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#6 - tcpserver.cpp:103
+20180828 22:30:12 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#6] at 0x176C5C0 fd=23 state=kDisconnected - tcpconnection.cpp:52
+20180828 22:30:12 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272
+20180828 22:30:15 ERROR TcpConnection::handleError [ZYL-MYIMSERVER:0.0.0.0:52822#4] - SO_ERROR = 104 Connection reset by peer - tcpconnection.cpp:393
+20180828 22:30:15 INFO  client disconnected: 183.236.19.211:3849 - IMServer.cpp:103
+20180828 22:30:15 INFO  current online user count: 1 - IMServer.cpp:108
+20180828 22:30:15 INFO  TcpServer::removeConnectionInLoop [ZYL-MYIMSERVER] - connection ZYL-MYIMSERVER:0.0.0.0:52822#4 - tcpserver.cpp:103
+20180828 22:30:15 DEBUG ~TcpConnection TcpConnection::dtor[ZYL-MYIMSERVER:0.0.0.0:52822#4] at 0x176B6E0 fd=22 state=kDisconnected - tcpconnection.cpp:52
+20180828 22:30:15 ERROR Bad file descriptor (errno=9) sockets::close - sockets.cpp:272

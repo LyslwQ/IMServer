@@ -1,0 +1,76 @@
+2018-09-06 00:42:42,043 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8600
+2018-09-06 00:42:42,044 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 127.0.0.1:8601
+2018-09-06 00:44:55,023 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:47476
+
+2018-09-06 00:44:55,085 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 00:44:55,085 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 00:44:55,085 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 01:07:26,718 [INFO  IM] - <file_client_conn.cpp>|<169>|<OnClose>,client onclose: handle=8
+2018-09-06 01:07:27,019 [INFO  IM] - <file_client_conn.cpp>|<71>|<Close>,close client, handle 8
+2018-09-06 01:16:18,786 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8600
+2018-09-06 01:16:18,827 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 127.0.0.1:8601
+2018-09-06 01:16:20,434 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:47622
+
+2018-09-06 01:16:20,434 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 01:16:20,434 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 01:16:20,434 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 13:26:10,648 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8600
+2018-09-06 13:26:10,710 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 127.0.0.1:8601
+2018-09-06 13:26:12,162 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 127.0.0.1:57842
+
+2018-09-06 13:26:12,209 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 13:26:12,209 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 13:26:12,217 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 14:20:19,830 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 14:20:19,858 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 14:20:21,446 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:60868
+
+2018-09-06 14:20:21,446 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 14:20:21,446 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 14:20:21,446 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 14:28:30,081 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 14:28:30,081 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 14:28:30,764 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:32906
+
+2018-09-06 14:28:30,764 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 14:28:30,764 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 14:28:30,764 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 14:37:09,446 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 14:37:09,447 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 14:37:10,145 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:33514
+
+2018-09-06 14:37:10,145 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 14:37:10,145 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 14:37:10,145 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 14:48:26,659 [INFO  IM] - <file_client_conn.cpp>|<169>|<OnClose>,client onclose: handle=8
+2018-09-06 14:48:26,660 [INFO  IM] - <file_client_conn.cpp>|<71>|<Close>,close client, handle 8
+2018-09-06 14:55:34,788 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 14:55:34,800 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 14:55:36,400 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:34366
+
+2018-09-06 14:55:36,401 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 14:55:36,401 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 14:55:36,401 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 15:02:03,748 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 15:02:03,748 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 15:02:05,238 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:34870
+
+2018-09-06 15:02:05,238 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 15:02:05,238 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 15:02:05,238 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 15:07:48,250 [INFO  IM] - <file_client_conn.cpp>|<169>|<OnClose>,client onclose: handle=8
+2018-09-06 15:07:48,250 [INFO  IM] - <file_client_conn.cpp>|<71>|<Close>,close client, handle 8
+2018-09-06 15:08:26,792 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 15:08:26,792 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 15:08:27,563 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:34964
+
+2018-09-06 15:08:27,564 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 15:08:27,564 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 15:08:27,564 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2018-09-06 15:11:17,554 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8600
+2018-09-06 15:11:17,554 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.155.128:8601
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.155.128:35234
+
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2018-09-06 15:11:18,143 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2018-09-06 15:11:18,143 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
